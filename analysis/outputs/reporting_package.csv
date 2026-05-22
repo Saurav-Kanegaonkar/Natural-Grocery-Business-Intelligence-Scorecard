@@ -1,0 +1,6 @@
+customer_id,customer_name,business_review_theme,net_sales,top_categories,estimated_margin_upside,open_stakeholder_requests,slides_ready,next_meeting
+CUST01,Central Market Group,Assortment growth story with data quality guardrails,1136152.31,Fresh Specialty Cheese; Functional Beverages; Natural Personal Care,31084.09,18,Needs account signoff,2026-06-16
+CUST02,Sproutline Natural Markets,Fill-rate stabilization before expansion ask,943558.25,Fresh Specialty Cheese; Better-for-You Snacks; Natural Personal Care,24819.75,15,Yes,2026-06-16
+CUST03,Northstar Independent Co-op,Fill-rate stabilization before expansion ask,731697.21,Fresh Specialty Cheese; Organic Pantry Staples; Natural Personal Care,21557.42,30,Yes,2026-06-18
+CUST04,Fresh Table Supermarkets,Fill-rate stabilization before expansion ask,840838.92,Better-for-You Snacks; Functional Beverages; Fresh Specialty Cheese,20643.37,18,Needs source validation,2026-06-04
+CUST05,Urban Pantry Express,Fill-rate stabilization before expansion ask,552448.74,Better-for-You Snacks; Plant-Based Meals; Fresh Specialty Cheese,17912.04,19,Yes,2026-06-09

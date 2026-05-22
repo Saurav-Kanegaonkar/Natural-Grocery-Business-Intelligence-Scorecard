@@ -1,0 +1,31 @@
+check_id,source_system,table_name,check_type,severity,status,freshness_hours,failed_records,owner,recommended_fix,trust_score
+DQ048,Planning request tracker,stakeholder_requests,Requirement clarity,Medium,Fail,65,912,Category manager,Certify measure after peer review,55.1
+DQ029,Promotion calendar,promotion_calendar,Promotion join coverage,High,Fail,58,375,BI analyst,Clarify stakeholder metric definition,55.4
+DQ081,Retailer direct POS,weekly_pos,Scan reconciliation,High,Fail,42,611,Data engineering,Reconcile retailer scans to distributor shipments,57.4
+DQ031,Syndicated POS,weekly_pos,Freshness,High,Watch,62,910,Customer planning,Reconcile retailer scans to distributor shipments,60.9
+DQ049,Syndicated POS,weekly_pos,Freshness,High,Fail,41,201,BI analyst,Patch promotion calendar join key,61.1
+DQ063,Power BI service,power_bi_assets,Refresh SLA,High,Fail,41,80,Category manager,Patch promotion calendar join key,62.1
+DQ067,Distributor shipment ERP,distributor_shipments,Order to shipment match,Critical,Watch,4,588,Data engineering,Clarify stakeholder metric definition,65.1
+DQ069,Retailer direct POS,weekly_pos,Scan reconciliation,High,Watch,47,678,Category manager,Align item hierarchy mapping before business review,66.6
+DQ021,Syndicated POS,weekly_pos,Freshness,Medium,Fail,43,183,Customer planning,Patch promotion calendar join key,66.7
+DQ040,Item master,skus,Hierarchy completeness,Medium,Fail,32,520,BI analyst,Backfill missing week and republish dataset,66.7
+DQ023,Planning request tracker,stakeholder_requests,Requirement clarity,Critical,Pass,65,0,Customer planning,Align item hierarchy mapping before business review,67.8
+DQ014,Item master,skus,Hierarchy completeness,Low,Fail,51,250,Data engineering,Patch promotion calendar join key,68.2
+DQ050,Promotion calendar,promotion_calendar,Promotion join coverage,Critical,Watch,9,162,BI analyst,Certify measure after peer review,68.7
+DQ061,Item master,skus,Hierarchy completeness,Medium,Fail,8,496,Customer planning,Patch promotion calendar join key,68.9
+DQ082,Retailer direct POS,weekly_pos,Scan reconciliation,Low,Watch,69,865,Category manager,Certify measure after peer review,69.5
+DQ057,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Fail,19,309,Data engineering,Reconcile retailer scans to distributor shipments,70.4
+DQ058,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Watch,55,543,Category manager,Clarify stakeholder metric definition,71.7
+DQ074,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Fail,7,118,BI analyst,Certify measure after peer review,72.0
+DQ066,Promotion calendar,promotion_calendar,Promotion join coverage,Critical,Pass,46,0,Category manager,Backfill missing week and republish dataset,72.5
+DQ044,Promotion calendar,promotion_calendar,Promotion join coverage,High,Watch,19,640,Data engineering,Clarify stakeholder metric definition,72.7
+DQ038,Syndicated POS,weekly_pos,Freshness,Low,Watch,55,867,Data engineering,Reconcile retailer scans to distributor shipments,73.0
+DQ013,Syndicated POS,weekly_pos,Freshness,Medium,Watch,64,95,BI analyst,Backfill missing week and republish dataset,73.2
+DQ025,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Watch,38,663,Customer planning,Reconcile retailer scans to distributor shipments,75.0
+DQ072,Planning request tracker,stakeholder_requests,Requirement clarity,High,Pass,67,0,Category manager,Align item hierarchy mapping before business review,75.2
+DQ051,Item master,skus,Hierarchy completeness,High,Pass,65,0,Category manager,Reconcile retailer scans to distributor shipments,75.8
+DQ053,Power BI service,power_bi_assets,Refresh SLA,High,Pass,63,0,BI analyst,Reconcile retailer scans to distributor shipments,76.2
+DQ008,Item master,skus,Hierarchy completeness,Low,Watch,40,862,Customer planning,Backfill missing week and republish dataset,76.8
+DQ009,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Watch,33,335,Customer planning,Clarify stakeholder metric definition,79.0
+DQ035,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Watch,31,344,Customer planning,Clarify stakeholder metric definition,79.4
+DQ070,Item master,skus,Hierarchy completeness,Medium,Watch,32,286,Customer planning,Align item hierarchy mapping before business review,79.6

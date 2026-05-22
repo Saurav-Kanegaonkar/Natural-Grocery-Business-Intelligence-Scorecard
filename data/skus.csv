@@ -1,0 +1,37 @@
+sku_id,sku_name,category_id,category,department,attribute,base_price,case_pack,gross_margin_pct
+CAT01-SKU01,Functional Item 1,CAT01,Functional Beverages,Refrigerated,gluten free,6.2,24,0.34
+CAT01-SKU02,Functional Item 2,CAT01,Functional Beverages,Refrigerated,high protein,7.94,8,0.34
+CAT01-SKU03,Functional Item 3,CAT01,Functional Beverages,Refrigerated,organic,11.46,24,0.34
+CAT01-SKU04,Functional Item 4,CAT01,Functional Beverages,Refrigerated,low sugar,12.16,6,0.34
+CAT01-SKU05,Functional Item 5,CAT01,Functional Beverages,Refrigerated,organic,9.31,6,0.34
+CAT01-SKU06,Functional Item 6,CAT01,Functional Beverages,Refrigerated,local origin,7.03,6,0.34
+CAT02-SKU01,Better-for-You Item 1,CAT02,Better-for-You Snacks,Grocery,regenerative,9.38,24,0.31
+CAT02-SKU02,Better-for-You Item 2,CAT02,Better-for-You Snacks,Grocery,gluten free,4.75,6,0.31
+CAT02-SKU03,Better-for-You Item 3,CAT02,Better-for-You Snacks,Grocery,plant based,8.89,24,0.31
+CAT02-SKU04,Better-for-You Item 4,CAT02,Better-for-You Snacks,Grocery,gluten free,12.28,8,0.31
+CAT02-SKU05,Better-for-You Item 5,CAT02,Better-for-You Snacks,Grocery,gluten free,7.67,6,0.31
+CAT02-SKU06,Better-for-You Item 6,CAT02,Better-for-You Snacks,Grocery,upcycled,12.43,8,0.31
+CAT03-SKU01,Plant-Based Item 1,CAT03,Plant-Based Meals,Frozen,upcycled,5.77,8,0.29
+CAT03-SKU02,Plant-Based Item 2,CAT03,Plant-Based Meals,Frozen,low sugar,11.89,8,0.29
+CAT03-SKU03,Plant-Based Item 3,CAT03,Plant-Based Meals,Frozen,high protein,12.01,24,0.29
+CAT03-SKU04,Plant-Based Item 4,CAT03,Plant-Based Meals,Frozen,plant based,8.17,6,0.29
+CAT03-SKU05,Plant-Based Item 5,CAT03,Plant-Based Meals,Frozen,regenerative,8.01,24,0.29
+CAT03-SKU06,Plant-Based Item 6,CAT03,Plant-Based Meals,Frozen,organic,5.43,12,0.29
+CAT04-SKU01,Natural Item 1,CAT04,Natural Personal Care,Wellness,upcycled,10.59,6,0.37
+CAT04-SKU02,Natural Item 2,CAT04,Natural Personal Care,Wellness,low sugar,10.46,6,0.37
+CAT04-SKU03,Natural Item 3,CAT04,Natural Personal Care,Wellness,low sugar,9.06,6,0.37
+CAT04-SKU04,Natural Item 4,CAT04,Natural Personal Care,Wellness,upcycled,11.86,8,0.37
+CAT04-SKU05,Natural Item 5,CAT04,Natural Personal Care,Wellness,high protein,11.83,6,0.37
+CAT04-SKU06,Natural Item 6,CAT04,Natural Personal Care,Wellness,upcycled,12.14,8,0.37
+CAT05-SKU01,Organic Item 1,CAT05,Organic Pantry Staples,Grocery,high protein,9.99,24,0.25
+CAT05-SKU02,Organic Item 2,CAT05,Organic Pantry Staples,Grocery,high protein,9.55,8,0.25
+CAT05-SKU03,Organic Item 3,CAT05,Organic Pantry Staples,Grocery,high protein,8.41,12,0.25
+CAT05-SKU04,Organic Item 4,CAT05,Organic Pantry Staples,Grocery,organic,7.29,8,0.25
+CAT05-SKU05,Organic Item 5,CAT05,Organic Pantry Staples,Grocery,gluten free,12.06,6,0.25
+CAT05-SKU06,Organic Item 6,CAT05,Organic Pantry Staples,Grocery,high protein,5.41,6,0.25
+CAT06-SKU01,Fresh Item 1,CAT06,Fresh Specialty Cheese,Fresh,upcycled,9.52,24,0.33
+CAT06-SKU02,Fresh Item 2,CAT06,Fresh Specialty Cheese,Fresh,organic,5.82,24,0.33
+CAT06-SKU03,Fresh Item 3,CAT06,Fresh Specialty Cheese,Fresh,upcycled,9.75,8,0.33
+CAT06-SKU04,Fresh Item 4,CAT06,Fresh Specialty Cheese,Fresh,upcycled,10.55,12,0.33
+CAT06-SKU05,Fresh Item 5,CAT06,Fresh Specialty Cheese,Fresh,regenerative,5.07,12,0.33
+CAT06-SKU06,Fresh Item 6,CAT06,Fresh Specialty Cheese,Fresh,local origin,10.11,8,0.33

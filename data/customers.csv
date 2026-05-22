@@ -1,0 +1,6 @@
+customer_id,customer_name,channel,banners,stores,region,planning_owner
+CUST01,Central Market Group,Conventional grocery,7,1285,Central,Customer planning
+CUST02,Sproutline Natural Markets,Natural grocery,1,424,West,Natural channel
+CUST03,Northstar Independent Co-op,Independent grocery,18,612,North,Independent accounts
+CUST04,Fresh Table Supermarkets,Regional grocery,3,286,Southeast,Regional accounts
+CUST05,Urban Pantry Express,Small format,2,338,Midwest,Emerging formats

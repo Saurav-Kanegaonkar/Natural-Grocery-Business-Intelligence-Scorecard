@@ -1,0 +1,9 @@
+asset_id,asset_name,workspace,primary_audience,refresh_cadence,refresh_success_pct,data_quality_pct,monthly_active_users,certification_status,rls_required
+PBI01,Customer Business Review,Customer analytics,Account team,Twice weekly,91.3,92.7,127,Certified,No
+PBI02,Gap and Void Dashboard,Category management,Supplier managers,Weekly,93.9,76.6,111,Needs review,Yes
+PBI03,Promotion Performance,Category management,Customer planning,Weekly,89.1,78.9,42,Certified,No
+PBI04,Fill Rate and Inventory,Customer analytics,Supplier managers,Weekly,99.5,85.0,88,Needs review,No
+PBI05,Category Share Tracker,Category management,Supplier managers,Twice weekly,95.2,88.6,115,Needs review,Yes
+PBI06,Ad Hoc Insights Pack,Category management,Leadership,Weekly,99.6,93.6,57,Promoted,Yes
+PBI07,Supplier Scorecard,Customer analytics,Customer planning,Weekly,90.4,94.8,91,Needs review,No
+PBI08,Forecasted Sales Potential,Executive reporting,Customer planning,Daily,87.3,97.3,52,Needs review,No

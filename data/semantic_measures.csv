@@ -1,0 +1,6 @@
+measure_name,grain,dax_pattern,business_definition,certification_status,test_coverage_pct
+Net Sales,Customer x SKU x week,SUM(weekly_pos[sales_dollars]),Retail POS dollars after promoted price effects.,Certified,94
+ACV Distribution Gap,Customer x category x week,MAX(categories[target_acv_pct]) - AVERAGE(weekly_pos[acv_distribution_pct]),Points of distribution still needed versus category benchmark.,Certified,91
+Fill Rate Risk,Customer x SKU x week,"1 - DIVIDE(SUM(shipments[shipped_cases]), SUM(shipments[ordered_cases]))",Unfilled ordered cases as a share of ordered cases.,Promoted,86
+Promotion Lift Attainment,Promotion,"DIVIDE(AVERAGE(promotions[actual_lift_pct]), AVERAGE(promotions[planned_lift_pct]))",Actual promotion lift versus planned lift.,Needs review,71
+Source Trust Score,Dataset x refresh,100 - [Freshness Penalty] - [Failed Record Penalty] - [SLA Penalty],Composite confidence score used before publishing a business review.,Draft,68

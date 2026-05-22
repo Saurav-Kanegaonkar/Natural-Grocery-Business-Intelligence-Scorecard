@@ -1,0 +1,7 @@
+category_id,category,department,gross_margin_pct,target_acv_pct
+CAT01,Functional Beverages,Refrigerated,0.34,88
+CAT02,Better-for-You Snacks,Grocery,0.31,90
+CAT03,Plant-Based Meals,Frozen,0.29,84
+CAT04,Natural Personal Care,Wellness,0.37,80
+CAT05,Organic Pantry Staples,Grocery,0.25,92
+CAT06,Fresh Specialty Cheese,Fresh,0.33,76

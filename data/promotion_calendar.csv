@@ -1,0 +1,616 @@
+promo_id,customer_id,customer_name,sku_id,category,week_start,planned_lift_pct,actual_lift_pct,feature_display,compliance_pct,funding_rate_pct
+PROMO-0001,CUST01,Central Market Group,CAT01-SKU03,Functional Beverages,2025-10-06,35.4,11.1,Digital only,60.0,6.6
+PROMO-0002,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2025-10-06,33.8,27.0,Feature,76.3,15.7
+PROMO-0003,CUST01,Central Market Group,CAT03-SKU03,Plant-Based Meals,2025-10-06,28.7,29.2,Feature,58.8,17.9
+PROMO-0004,CUST02,Sproutline Natural Markets,CAT01-SKU02,Functional Beverages,2025-10-06,31.0,30.7,Digital only,61.2,16.6
+PROMO-0005,CUST02,Sproutline Natural Markets,CAT01-SKU05,Functional Beverages,2025-10-06,31.5,8.0,Display,77.3,7.6
+PROMO-0006,CUST02,Sproutline Natural Markets,CAT05-SKU01,Organic Pantry Staples,2025-10-06,27.3,30.1,Display,89.5,7.8
+PROMO-0007,CUST02,Sproutline Natural Markets,CAT05-SKU02,Organic Pantry Staples,2025-10-06,24.3,11.7,Feature and display,81.4,11.7
+PROMO-0008,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2025-10-06,25.8,29.9,Feature,65.6,16.0
+PROMO-0009,CUST02,Sproutline Natural Markets,CAT06-SKU03,Fresh Specialty Cheese,2025-10-06,10.8,20.4,Feature and display,80.6,9.8
+PROMO-0010,CUST03,Northstar Independent Co-op,CAT02-SKU02,Better-for-You Snacks,2025-10-06,24.9,23.6,Digital only,74.5,17.4
+PROMO-0011,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2025-10-06,19.0,8.0,Display,88.8,13.5
+PROMO-0012,CUST03,Northstar Independent Co-op,CAT03-SKU03,Plant-Based Meals,2025-10-06,21.2,32.0,Feature and display,78.0,15.8
+PROMO-0013,CUST03,Northstar Independent Co-op,CAT04-SKU02,Natural Personal Care,2025-10-06,32.1,4.1,Feature,99,15.0
+PROMO-0014,CUST03,Northstar Independent Co-op,CAT05-SKU04,Organic Pantry Staples,2025-10-06,12.1,30.7,Display,64.3,11.3
+PROMO-0015,CUST03,Northstar Independent Co-op,CAT05-SKU06,Organic Pantry Staples,2025-10-06,28.9,20.1,Display,82.1,9.1
+PROMO-0016,CUST04,Fresh Table Supermarkets,CAT01-SKU02,Functional Beverages,2025-10-06,14.7,12.7,Display,78.1,10.4
+PROMO-0017,CUST04,Fresh Table Supermarkets,CAT03-SKU05,Plant-Based Meals,2025-10-06,22.7,13.0,Feature,76.8,8.4
+PROMO-0018,CUST04,Fresh Table Supermarkets,CAT04-SKU05,Natural Personal Care,2025-10-06,11.2,31.6,Display,80.1,12.8
+PROMO-0019,CUST04,Fresh Table Supermarkets,CAT06-SKU04,Fresh Specialty Cheese,2025-10-06,32.5,33.5,Display,89.0,16.4
+PROMO-0020,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2025-10-06,17.3,13.5,Feature,64.9,15.5
+PROMO-0021,CUST05,Urban Pantry Express,CAT04-SKU04,Natural Personal Care,2025-10-06,32.0,29.5,Feature and display,83.3,17.3
+PROMO-0022,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2025-10-13,34.8,30.1,Digital only,70.5,12.6
+PROMO-0023,CUST01,Central Market Group,CAT01-SKU06,Functional Beverages,2025-10-13,10.6,17.3,Display,88.2,11.6
+PROMO-0024,CUST01,Central Market Group,CAT03-SKU01,Plant-Based Meals,2025-10-13,35.6,33.7,Display,99,12.2
+PROMO-0025,CUST01,Central Market Group,CAT03-SKU05,Plant-Based Meals,2025-10-13,12.9,18.1,Display,56.7,16.3
+PROMO-0026,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2025-10-13,19.4,11.3,Feature and display,67.6,14.3
+PROMO-0027,CUST01,Central Market Group,CAT06-SKU01,Fresh Specialty Cheese,2025-10-13,11.4,23.8,Feature,68.1,13.0
+PROMO-0028,CUST01,Central Market Group,CAT06-SKU05,Fresh Specialty Cheese,2025-10-13,23.3,7.6,Digital only,48.3,17.3
+PROMO-0029,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2025-10-13,16.0,10.8,Feature and display,55.2,8.7
+PROMO-0030,CUST02,Sproutline Natural Markets,CAT04-SKU02,Natural Personal Care,2025-10-13,37.9,24.6,Feature,58.3,17.0
+PROMO-0031,CUST02,Sproutline Natural Markets,CAT05-SKU02,Organic Pantry Staples,2025-10-13,26.0,6.5,Feature and display,71.0,13.3
+PROMO-0032,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2025-10-13,36.2,30.3,Display,47.4,11.2
+PROMO-0033,CUST02,Sproutline Natural Markets,CAT05-SKU04,Organic Pantry Staples,2025-10-13,13.3,18.8,Digital only,81.7,9.8
+PROMO-0034,CUST03,Northstar Independent Co-op,CAT01-SKU05,Functional Beverages,2025-10-13,28.3,21.6,Feature and display,85.2,11.4
+PROMO-0035,CUST03,Northstar Independent Co-op,CAT04-SKU04,Natural Personal Care,2025-10-13,26.2,25.5,Display,78.7,7.4
+PROMO-0036,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2025-10-13,10.2,4.1,Digital only,61.2,7.7
+PROMO-0037,CUST03,Northstar Independent Co-op,CAT05-SKU03,Organic Pantry Staples,2025-10-13,17.2,8.7,Feature,82.6,10.6
+PROMO-0038,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2025-10-13,34.7,25.3,Feature and display,88.1,13.8
+PROMO-0039,CUST04,Fresh Table Supermarkets,CAT02-SKU03,Better-for-You Snacks,2025-10-13,22.8,21.1,Digital only,99,13.5
+PROMO-0040,CUST04,Fresh Table Supermarkets,CAT03-SKU02,Plant-Based Meals,2025-10-13,30.5,25.3,Digital only,71.2,11.6
+PROMO-0041,CUST04,Fresh Table Supermarkets,CAT04-SKU02,Natural Personal Care,2025-10-13,16.9,20.1,Digital only,75.9,15.9
+PROMO-0042,CUST04,Fresh Table Supermarkets,CAT05-SKU01,Organic Pantry Staples,2025-10-13,24.6,25.2,Digital only,86.0,6.8
+PROMO-0043,CUST05,Urban Pantry Express,CAT01-SKU02,Functional Beverages,2025-10-13,35.9,19.2,Display,66.3,11.1
+PROMO-0044,CUST05,Urban Pantry Express,CAT01-SKU03,Functional Beverages,2025-10-13,36.9,18.7,Feature and display,74.7,9.9
+PROMO-0045,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-10-13,17.8,8.7,Feature and display,83.8,8.3
+PROMO-0046,CUST05,Urban Pantry Express,CAT02-SKU04,Better-for-You Snacks,2025-10-13,29.1,28.2,Display,77.4,14.6
+PROMO-0047,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2025-10-13,16.6,19.3,Feature and display,89.3,9.1
+PROMO-0048,CUST05,Urban Pantry Express,CAT06-SKU03,Fresh Specialty Cheese,2025-10-13,17.8,4.5,Feature and display,91.9,17.8
+PROMO-0049,CUST05,Urban Pantry Express,CAT06-SKU06,Fresh Specialty Cheese,2025-10-13,37.1,28.7,Digital only,94.2,8.9
+PROMO-0050,CUST01,Central Market Group,CAT01-SKU03,Functional Beverages,2025-10-20,23.0,13.7,Display,82.9,7.1
+PROMO-0051,CUST01,Central Market Group,CAT02-SKU05,Better-for-You Snacks,2025-10-20,30.8,4.2,Feature,74.3,16.5
+PROMO-0052,CUST01,Central Market Group,CAT03-SKU02,Plant-Based Meals,2025-10-20,16.2,12.7,Feature and display,83.2,16.7
+PROMO-0053,CUST01,Central Market Group,CAT04-SKU02,Natural Personal Care,2025-10-20,14.6,8.6,Feature,84.3,13.5
+PROMO-0054,CUST01,Central Market Group,CAT05-SKU02,Organic Pantry Staples,2025-10-20,31.3,27.8,Digital only,69.2,11.2
+PROMO-0055,CUST01,Central Market Group,CAT05-SKU03,Organic Pantry Staples,2025-10-20,23.4,10.8,Feature,80.3,17.7
+PROMO-0056,CUST01,Central Market Group,CAT05-SKU05,Organic Pantry Staples,2025-10-20,27.4,17.2,Feature and display,74.8,8.6
+PROMO-0057,CUST01,Central Market Group,CAT06-SKU01,Fresh Specialty Cheese,2025-10-20,25.0,17.8,Digital only,63.3,11.0
+PROMO-0058,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2025-10-20,30.7,25.1,Feature and display,75.2,10.9
+PROMO-0059,CUST02,Sproutline Natural Markets,CAT03-SKU02,Plant-Based Meals,2025-10-20,28.2,25.5,Display,84.9,12.8
+PROMO-0060,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2025-10-20,13.6,32.4,Digital only,90.5,18.0
+PROMO-0061,CUST02,Sproutline Natural Markets,CAT03-SKU05,Plant-Based Meals,2025-10-20,37.2,15.6,Digital only,66.0,15.7
+PROMO-0062,CUST02,Sproutline Natural Markets,CAT06-SKU03,Fresh Specialty Cheese,2025-10-20,10.9,25.0,Feature,56.2,9.4
+PROMO-0063,CUST03,Northstar Independent Co-op,CAT02-SKU06,Better-for-You Snacks,2025-10-20,19.4,9.3,Feature and display,76.3,11.7
+PROMO-0064,CUST03,Northstar Independent Co-op,CAT03-SKU01,Plant-Based Meals,2025-10-20,21.1,31.9,Feature,72.7,16.1
+PROMO-0065,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2025-10-20,19.6,24.4,Digital only,87.3,10.2
+PROMO-0066,CUST03,Northstar Independent Co-op,CAT04-SKU01,Natural Personal Care,2025-10-20,13.6,4.7,Feature,73.2,12.8
+PROMO-0067,CUST04,Fresh Table Supermarkets,CAT02-SKU03,Better-for-You Snacks,2025-10-20,33.0,21.5,Display,55.7,8.2
+PROMO-0068,CUST04,Fresh Table Supermarkets,CAT03-SKU01,Plant-Based Meals,2025-10-20,11.3,7.4,Feature,89.1,11.2
+PROMO-0069,CUST04,Fresh Table Supermarkets,CAT04-SKU06,Natural Personal Care,2025-10-20,27.1,19.4,Digital only,80.0,12.9
+PROMO-0070,CUST05,Urban Pantry Express,CAT01-SKU01,Functional Beverages,2025-10-20,16.3,4.4,Display,91.8,13.3
+PROMO-0071,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-10-20,32.4,20.0,Display,50.4,10.5
+PROMO-0072,CUST05,Urban Pantry Express,CAT02-SKU02,Better-for-You Snacks,2025-10-20,30.4,26.8,Feature and display,72.7,17.0
+PROMO-0073,CUST05,Urban Pantry Express,CAT02-SKU04,Better-for-You Snacks,2025-10-20,35.9,4.8,Digital only,64.7,11.3
+PROMO-0074,CUST05,Urban Pantry Express,CAT04-SKU02,Natural Personal Care,2025-10-20,11.1,23.0,Feature,85.6,13.0
+PROMO-0075,CUST05,Urban Pantry Express,CAT06-SKU01,Fresh Specialty Cheese,2025-10-20,26.1,30.0,Feature and display,62.7,15.2
+PROMO-0076,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2025-10-27,34.8,25.3,Digital only,65.0,7.4
+PROMO-0077,CUST01,Central Market Group,CAT03-SKU02,Plant-Based Meals,2025-10-27,35.8,11.4,Feature and display,85.0,7.4
+PROMO-0078,CUST01,Central Market Group,CAT05-SKU04,Organic Pantry Staples,2025-10-27,17.0,17.9,Digital only,91.6,11.3
+PROMO-0079,CUST02,Sproutline Natural Markets,CAT04-SKU01,Natural Personal Care,2025-10-27,10.7,4.1,Display,75.2,14.4
+PROMO-0080,CUST02,Sproutline Natural Markets,CAT04-SKU04,Natural Personal Care,2025-10-27,24.3,22.1,Feature,88.1,6.3
+PROMO-0081,CUST02,Sproutline Natural Markets,CAT05-SKU01,Organic Pantry Staples,2025-10-27,24.0,7.3,Digital only,89.6,13.9
+PROMO-0082,CUST02,Sproutline Natural Markets,CAT05-SKU04,Organic Pantry Staples,2025-10-27,20.3,24.0,Digital only,83.1,12.0
+PROMO-0083,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2025-10-27,31.9,8.3,Feature,56.0,18.0
+PROMO-0084,CUST03,Northstar Independent Co-op,CAT03-SKU04,Plant-Based Meals,2025-10-27,26.8,26.2,Digital only,84.6,14.9
+PROMO-0085,CUST03,Northstar Independent Co-op,CAT04-SKU01,Natural Personal Care,2025-10-27,30.6,27.3,Display,98.7,10.2
+PROMO-0086,CUST04,Fresh Table Supermarkets,CAT02-SKU05,Better-for-You Snacks,2025-10-27,22.2,8.3,Digital only,78.9,6.4
+PROMO-0087,CUST04,Fresh Table Supermarkets,CAT03-SKU06,Plant-Based Meals,2025-10-27,27.5,9.2,Display,82.0,9.0
+PROMO-0088,CUST04,Fresh Table Supermarkets,CAT04-SKU03,Natural Personal Care,2025-10-27,30.3,13.2,Feature,89.3,7.8
+PROMO-0089,CUST05,Urban Pantry Express,CAT04-SKU02,Natural Personal Care,2025-10-27,30.8,25.1,Feature,94.5,6.0
+PROMO-0090,CUST05,Urban Pantry Express,CAT04-SKU03,Natural Personal Care,2025-10-27,14.3,7.9,Display,79.6,10.9
+PROMO-0091,CUST01,Central Market Group,CAT01-SKU03,Functional Beverages,2025-11-03,30.7,27.1,Digital only,78.6,14.1
+PROMO-0092,CUST01,Central Market Group,CAT03-SKU05,Plant-Based Meals,2025-11-03,27.4,22.5,Feature and display,82.3,10.4
+PROMO-0093,CUST01,Central Market Group,CAT04-SKU01,Natural Personal Care,2025-11-03,16.6,10.4,Display,77.3,11.5
+PROMO-0094,CUST01,Central Market Group,CAT04-SKU05,Natural Personal Care,2025-11-03,15.8,33.0,Digital only,62.2,6.9
+PROMO-0095,CUST01,Central Market Group,CAT05-SKU06,Organic Pantry Staples,2025-11-03,33.4,9.6,Display,88.7,12.1
+PROMO-0096,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2025-11-03,20.0,18.2,Feature and display,82.0,10.1
+PROMO-0097,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2025-11-03,17.7,22.1,Feature and display,78.6,16.6
+PROMO-0098,CUST02,Sproutline Natural Markets,CAT06-SKU01,Fresh Specialty Cheese,2025-11-03,36.7,11.0,Feature and display,74.6,16.0
+PROMO-0099,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2025-11-03,22.1,17.8,Display,80.1,16.3
+PROMO-0100,CUST03,Northstar Independent Co-op,CAT01-SKU02,Functional Beverages,2025-11-03,15.6,14.5,Digital only,82.5,10.9
+PROMO-0101,CUST03,Northstar Independent Co-op,CAT02-SKU03,Better-for-You Snacks,2025-11-03,26.3,27.0,Feature and display,77.7,17.9
+PROMO-0102,CUST03,Northstar Independent Co-op,CAT02-SKU04,Better-for-You Snacks,2025-11-03,19.6,24.6,Digital only,79.0,13.9
+PROMO-0103,CUST03,Northstar Independent Co-op,CAT02-SKU06,Better-for-You Snacks,2025-11-03,18.8,29.5,Feature and display,42,9.7
+PROMO-0104,CUST03,Northstar Independent Co-op,CAT03-SKU03,Plant-Based Meals,2025-11-03,30.1,19.0,Display,76.0,13.8
+PROMO-0105,CUST03,Northstar Independent Co-op,CAT04-SKU01,Natural Personal Care,2025-11-03,25.9,12.8,Digital only,85.3,13.0
+PROMO-0106,CUST03,Northstar Independent Co-op,CAT04-SKU05,Natural Personal Care,2025-11-03,27.8,5.3,Digital only,82.6,9.1
+PROMO-0107,CUST03,Northstar Independent Co-op,CAT05-SKU01,Organic Pantry Staples,2025-11-03,20.5,5.8,Feature and display,94.0,11.3
+PROMO-0108,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2025-11-03,11.0,8.1,Feature,86.8,14.5
+PROMO-0109,CUST04,Fresh Table Supermarkets,CAT04-SKU02,Natural Personal Care,2025-11-03,22.9,26.3,Display,70.7,13.4
+PROMO-0110,CUST04,Fresh Table Supermarkets,CAT04-SKU03,Natural Personal Care,2025-11-03,24.6,27.7,Feature and display,76.1,12.5
+PROMO-0111,CUST04,Fresh Table Supermarkets,CAT05-SKU06,Organic Pantry Staples,2025-11-03,15.5,16.3,Feature,61.2,17.5
+PROMO-0112,CUST05,Urban Pantry Express,CAT01-SKU02,Functional Beverages,2025-11-03,12.0,7.1,Digital only,99,13.0
+PROMO-0113,CUST05,Urban Pantry Express,CAT01-SKU06,Functional Beverages,2025-11-03,14.7,7.0,Digital only,48.3,7.0
+PROMO-0114,CUST05,Urban Pantry Express,CAT02-SKU04,Better-for-You Snacks,2025-11-03,21.5,12.8,Digital only,99,13.8
+PROMO-0115,CUST05,Urban Pantry Express,CAT03-SKU01,Plant-Based Meals,2025-11-03,25.4,7.8,Digital only,90.5,9.5
+PROMO-0116,CUST05,Urban Pantry Express,CAT04-SKU02,Natural Personal Care,2025-11-03,12.4,32.2,Display,58.5,13.9
+PROMO-0117,CUST05,Urban Pantry Express,CAT04-SKU03,Natural Personal Care,2025-11-03,31.9,30.7,Digital only,75.6,10.3
+PROMO-0118,CUST05,Urban Pantry Express,CAT06-SKU04,Fresh Specialty Cheese,2025-11-03,21.2,20.9,Digital only,86.1,13.3
+PROMO-0119,CUST01,Central Market Group,CAT01-SKU02,Functional Beverages,2025-11-10,17.0,23.3,Feature,81.5,7.3
+PROMO-0120,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2025-11-10,11.5,25.2,Digital only,77.4,8.3
+PROMO-0121,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2025-11-10,18.6,24.9,Feature and display,68.7,11.2
+PROMO-0122,CUST02,Sproutline Natural Markets,CAT01-SKU03,Functional Beverages,2025-11-10,16.4,28.6,Feature and display,72.3,10.2
+PROMO-0123,CUST02,Sproutline Natural Markets,CAT02-SKU06,Better-for-You Snacks,2025-11-10,28.8,18.7,Digital only,72.8,9.6
+PROMO-0124,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2025-11-10,20.8,21.8,Display,74.6,9.2
+PROMO-0125,CUST02,Sproutline Natural Markets,CAT03-SKU05,Plant-Based Meals,2025-11-10,18.2,30.0,Display,54.3,15.4
+PROMO-0126,CUST02,Sproutline Natural Markets,CAT03-SKU06,Plant-Based Meals,2025-11-10,23.9,27.9,Feature,74.2,15.1
+PROMO-0127,CUST02,Sproutline Natural Markets,CAT04-SKU05,Natural Personal Care,2025-11-10,10.2,5.7,Digital only,87.3,8.4
+PROMO-0128,CUST03,Northstar Independent Co-op,CAT01-SKU04,Functional Beverages,2025-11-10,33.5,24.4,Feature and display,58.9,12.9
+PROMO-0129,CUST03,Northstar Independent Co-op,CAT02-SKU04,Better-for-You Snacks,2025-11-10,29.5,26.7,Feature,78.1,11.2
+PROMO-0130,CUST03,Northstar Independent Co-op,CAT02-SKU05,Better-for-You Snacks,2025-11-10,24.5,28.1,Digital only,78.6,12.4
+PROMO-0131,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2025-11-10,21.1,30.0,Digital only,85.4,13.6
+PROMO-0132,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2025-11-10,12.6,25.4,Digital only,80.4,11.8
+PROMO-0133,CUST04,Fresh Table Supermarkets,CAT01-SKU05,Functional Beverages,2025-11-10,21.0,23.5,Digital only,74.8,12.8
+PROMO-0134,CUST04,Fresh Table Supermarkets,CAT03-SKU06,Plant-Based Meals,2025-11-10,36.8,25.0,Digital only,85.1,9.8
+PROMO-0135,CUST04,Fresh Table Supermarkets,CAT05-SKU02,Organic Pantry Staples,2025-11-10,16.6,28.9,Feature and display,77.0,7.3
+PROMO-0136,CUST04,Fresh Table Supermarkets,CAT05-SKU06,Organic Pantry Staples,2025-11-10,12.2,20.9,Feature and display,91.2,8.0
+PROMO-0137,CUST04,Fresh Table Supermarkets,CAT06-SKU02,Fresh Specialty Cheese,2025-11-10,33.5,14.6,Display,71.2,15.8
+PROMO-0138,CUST05,Urban Pantry Express,CAT01-SKU05,Functional Beverages,2025-11-10,37.1,32.6,Feature,78.6,15.1
+PROMO-0139,CUST05,Urban Pantry Express,CAT03-SKU03,Plant-Based Meals,2025-11-10,27.3,20.8,Feature,65.9,17.0
+PROMO-0140,CUST05,Urban Pantry Express,CAT05-SKU03,Organic Pantry Staples,2025-11-10,20.6,4.1,Display,83.9,15.7
+PROMO-0141,CUST01,Central Market Group,CAT01-SKU06,Functional Beverages,2025-11-17,16.2,22.4,Feature and display,83.9,8.5
+PROMO-0142,CUST01,Central Market Group,CAT04-SKU01,Natural Personal Care,2025-11-17,27.3,5.0,Digital only,58.5,14.5
+PROMO-0143,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2025-11-17,29.3,28.1,Display,91.9,13.7
+PROMO-0144,CUST02,Sproutline Natural Markets,CAT01-SKU01,Functional Beverages,2025-11-17,19.0,20.3,Feature,75.1,9.7
+PROMO-0145,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2025-11-17,15.8,7.2,Display,99,13.4
+PROMO-0146,CUST02,Sproutline Natural Markets,CAT06-SKU01,Fresh Specialty Cheese,2025-11-17,15.6,23.3,Digital only,53.9,6.7
+PROMO-0147,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2025-11-17,33.1,24.6,Feature and display,78.7,16.0
+PROMO-0148,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2025-11-17,31.6,17.0,Digital only,99,14.7
+PROMO-0149,CUST03,Northstar Independent Co-op,CAT04-SKU04,Natural Personal Care,2025-11-17,30.1,7.7,Feature and display,75.5,15.3
+PROMO-0150,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2025-11-17,35.3,5.2,Feature,78.0,10.4
+PROMO-0151,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2025-11-17,33.5,6.3,Feature and display,84.5,9.7
+PROMO-0152,CUST04,Fresh Table Supermarkets,CAT01-SKU04,Functional Beverages,2025-11-17,15.2,7.7,Feature and display,67.7,6.2
+PROMO-0153,CUST04,Fresh Table Supermarkets,CAT01-SKU06,Functional Beverages,2025-11-17,15.9,9.6,Digital only,76.6,6.5
+PROMO-0154,CUST04,Fresh Table Supermarkets,CAT04-SKU01,Natural Personal Care,2025-11-17,34.0,31.9,Feature,90.3,13.0
+PROMO-0155,CUST04,Fresh Table Supermarkets,CAT04-SKU03,Natural Personal Care,2025-11-17,33.4,19.4,Display,79.2,15.2
+PROMO-0156,CUST04,Fresh Table Supermarkets,CAT05-SKU01,Organic Pantry Staples,2025-11-17,32.8,28.0,Feature and display,77.4,16.9
+PROMO-0157,CUST04,Fresh Table Supermarkets,CAT05-SKU06,Organic Pantry Staples,2025-11-17,24.4,21.1,Feature and display,62.9,7.2
+PROMO-0158,CUST05,Urban Pantry Express,CAT01-SKU05,Functional Beverages,2025-11-17,10.6,9.6,Feature and display,67.0,12.3
+PROMO-0159,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-11-17,32.4,13.7,Display,71.6,16.6
+PROMO-0160,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2025-11-17,10.2,9.9,Display,92.4,17.2
+PROMO-0161,CUST05,Urban Pantry Express,CAT03-SKU05,Plant-Based Meals,2025-11-17,30.9,32.9,Feature and display,74.9,17.4
+PROMO-0162,CUST05,Urban Pantry Express,CAT04-SKU06,Natural Personal Care,2025-11-17,35.1,23.0,Feature and display,70.5,9.1
+PROMO-0163,CUST05,Urban Pantry Express,CAT05-SKU02,Organic Pantry Staples,2025-11-17,11.6,31.2,Digital only,83.1,12.1
+PROMO-0164,CUST05,Urban Pantry Express,CAT06-SKU03,Fresh Specialty Cheese,2025-11-17,22.3,20.0,Display,62.2,13.2
+PROMO-0165,CUST05,Urban Pantry Express,CAT06-SKU04,Fresh Specialty Cheese,2025-11-17,17.7,5.9,Feature,95.0,10.6
+PROMO-0166,CUST01,Central Market Group,CAT03-SKU03,Plant-Based Meals,2025-11-24,19.0,33.7,Feature,86.4,12.0
+PROMO-0167,CUST01,Central Market Group,CAT03-SKU06,Plant-Based Meals,2025-11-24,25.8,12.8,Feature and display,62.6,14.8
+PROMO-0168,CUST01,Central Market Group,CAT05-SKU01,Organic Pantry Staples,2025-11-24,25.1,23.4,Feature and display,99,12.0
+PROMO-0169,CUST01,Central Market Group,CAT05-SKU02,Organic Pantry Staples,2025-11-24,23.9,18.4,Feature and display,62.3,15.1
+PROMO-0170,CUST02,Sproutline Natural Markets,CAT01-SKU03,Functional Beverages,2025-11-24,25.1,33.9,Digital only,81.7,9.1
+PROMO-0171,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2025-11-24,23.6,8.8,Feature and display,77.3,13.8
+PROMO-0172,CUST02,Sproutline Natural Markets,CAT03-SKU04,Plant-Based Meals,2025-11-24,29.3,28.4,Feature,92.9,9.1
+PROMO-0173,CUST02,Sproutline Natural Markets,CAT04-SKU05,Natural Personal Care,2025-11-24,30.5,6.8,Digital only,94.1,12.5
+PROMO-0174,CUST02,Sproutline Natural Markets,CAT05-SKU02,Organic Pantry Staples,2025-11-24,32.5,19.8,Digital only,82.7,7.3
+PROMO-0175,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2025-11-24,36.7,10.9,Feature,70.7,16.0
+PROMO-0176,CUST03,Northstar Independent Co-op,CAT03-SKU01,Plant-Based Meals,2025-11-24,35.0,16.1,Digital only,57.7,17.9
+PROMO-0177,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2025-11-24,20.0,20.8,Feature,90.2,14.4
+PROMO-0178,CUST03,Northstar Independent Co-op,CAT03-SKU06,Plant-Based Meals,2025-11-24,14.4,18.9,Display,80.9,12.4
+PROMO-0179,CUST03,Northstar Independent Co-op,CAT04-SKU03,Natural Personal Care,2025-11-24,20.5,16.5,Feature,56.2,17.6
+PROMO-0180,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2025-11-24,37.5,4.5,Digital only,86.8,11.7
+PROMO-0181,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2025-11-24,13.0,29.6,Digital only,85.5,16.8
+PROMO-0182,CUST03,Northstar Independent Co-op,CAT05-SKU03,Organic Pantry Staples,2025-11-24,19.2,29.6,Digital only,71.7,17.6
+PROMO-0183,CUST04,Fresh Table Supermarkets,CAT02-SKU01,Better-for-You Snacks,2025-11-24,30.6,5.4,Display,80.1,16.1
+PROMO-0184,CUST04,Fresh Table Supermarkets,CAT03-SKU01,Plant-Based Meals,2025-11-24,31.7,33.8,Feature and display,78.5,6.8
+PROMO-0185,CUST04,Fresh Table Supermarkets,CAT03-SKU03,Plant-Based Meals,2025-11-24,18.6,13.7,Display,77.4,12.7
+PROMO-0186,CUST04,Fresh Table Supermarkets,CAT05-SKU04,Organic Pantry Staples,2025-11-24,23.2,19.2,Feature,80.3,12.2
+PROMO-0187,CUST04,Fresh Table Supermarkets,CAT06-SKU06,Fresh Specialty Cheese,2025-11-24,32.3,29.6,Feature,66.0,6.1
+PROMO-0188,CUST05,Urban Pantry Express,CAT01-SKU03,Functional Beverages,2025-11-24,27.8,14.3,Feature and display,83.3,15.4
+PROMO-0189,CUST05,Urban Pantry Express,CAT01-SKU06,Functional Beverages,2025-11-24,11.1,23.3,Feature,99,9.5
+PROMO-0190,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-11-24,20.3,21.0,Display,66.0,8.2
+PROMO-0191,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2025-11-24,14.8,17.1,Feature,81.5,10.0
+PROMO-0192,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2025-11-24,27.9,24.7,Feature,73.4,13.5
+PROMO-0193,CUST01,Central Market Group,CAT01-SKU05,Functional Beverages,2025-12-01,18.0,8.5,Digital only,61.6,6.6
+PROMO-0194,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2025-12-01,36.2,19.3,Feature and display,63.9,17.4
+PROMO-0195,CUST01,Central Market Group,CAT02-SKU04,Better-for-You Snacks,2025-12-01,14.6,20.0,Feature and display,78.8,17.0
+PROMO-0196,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2025-12-01,33.8,27.7,Feature and display,60.9,7.3
+PROMO-0197,CUST01,Central Market Group,CAT06-SKU03,Fresh Specialty Cheese,2025-12-01,34.0,12.5,Digital only,79.8,10.7
+PROMO-0198,CUST02,Sproutline Natural Markets,CAT01-SKU02,Functional Beverages,2025-12-01,23.2,31.5,Feature and display,87.7,9.8
+PROMO-0199,CUST02,Sproutline Natural Markets,CAT04-SKU03,Natural Personal Care,2025-12-01,18.0,33.9,Feature and display,52.2,7.8
+PROMO-0200,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2025-12-01,32.0,29.1,Digital only,99,6.1
+PROMO-0201,CUST03,Northstar Independent Co-op,CAT01-SKU04,Functional Beverages,2025-12-01,11.9,17.9,Feature,83.2,14.2
+PROMO-0202,CUST03,Northstar Independent Co-op,CAT03-SKU06,Plant-Based Meals,2025-12-01,27.1,11.1,Digital only,80.8,11.9
+PROMO-0203,CUST03,Northstar Independent Co-op,CAT04-SKU05,Natural Personal Care,2025-12-01,20.8,6.1,Feature,65.5,10.3
+PROMO-0204,CUST04,Fresh Table Supermarkets,CAT01-SKU02,Functional Beverages,2025-12-01,33.8,27.3,Feature,75.5,7.7
+PROMO-0205,CUST04,Fresh Table Supermarkets,CAT02-SKU03,Better-for-You Snacks,2025-12-01,31.8,25.9,Display,73.8,8.9
+PROMO-0206,CUST04,Fresh Table Supermarkets,CAT02-SKU05,Better-for-You Snacks,2025-12-01,11.0,16.9,Display,90.7,14.4
+PROMO-0207,CUST04,Fresh Table Supermarkets,CAT02-SKU06,Better-for-You Snacks,2025-12-01,21.2,9.5,Feature,99,10.9
+PROMO-0208,CUST04,Fresh Table Supermarkets,CAT03-SKU05,Plant-Based Meals,2025-12-01,37.6,31.3,Feature,82.1,12.0
+PROMO-0209,CUST04,Fresh Table Supermarkets,CAT04-SKU06,Natural Personal Care,2025-12-01,32.6,12.3,Feature,72.0,7.9
+PROMO-0210,CUST05,Urban Pantry Express,CAT03-SKU06,Plant-Based Meals,2025-12-01,33.1,26.8,Digital only,92.4,7.9
+PROMO-0211,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2025-12-01,18.1,13.0,Digital only,75.0,16.6
+PROMO-0212,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2025-12-01,24.5,17.7,Feature and display,71.7,13.7
+PROMO-0213,CUST05,Urban Pantry Express,CAT05-SKU06,Organic Pantry Staples,2025-12-01,33.9,33.6,Digital only,95.8,8.4
+PROMO-0214,CUST05,Urban Pantry Express,CAT06-SKU06,Fresh Specialty Cheese,2025-12-01,19.5,15.5,Digital only,75.1,17.4
+PROMO-0215,CUST01,Central Market Group,CAT01-SKU04,Functional Beverages,2025-12-08,14.0,28.4,Feature,57.3,11.3
+PROMO-0216,CUST01,Central Market Group,CAT01-SKU06,Functional Beverages,2025-12-08,26.7,26.8,Feature,71.2,16.3
+PROMO-0217,CUST01,Central Market Group,CAT02-SKU02,Better-for-You Snacks,2025-12-08,25.2,29.8,Display,99,11.4
+PROMO-0218,CUST01,Central Market Group,CAT02-SKU04,Better-for-You Snacks,2025-12-08,35.3,20.5,Feature and display,88.8,15.0
+PROMO-0219,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2025-12-08,18.5,10.4,Digital only,58.9,14.6
+PROMO-0220,CUST01,Central Market Group,CAT05-SKU03,Organic Pantry Staples,2025-12-08,34.3,24.1,Feature,95.9,14.2
+PROMO-0221,CUST01,Central Market Group,CAT06-SKU06,Fresh Specialty Cheese,2025-12-08,23.6,23.9,Feature and display,56.8,15.0
+PROMO-0222,CUST02,Sproutline Natural Markets,CAT01-SKU03,Functional Beverages,2025-12-08,23.1,6.3,Feature,70.6,12.4
+PROMO-0223,CUST02,Sproutline Natural Markets,CAT01-SKU06,Functional Beverages,2025-12-08,16.4,27.2,Feature,87.0,8.3
+PROMO-0224,CUST02,Sproutline Natural Markets,CAT03-SKU05,Plant-Based Meals,2025-12-08,20.0,6.7,Feature and display,56.0,10.6
+PROMO-0225,CUST02,Sproutline Natural Markets,CAT05-SKU01,Organic Pantry Staples,2025-12-08,34.9,20.2,Feature,61.0,11.3
+PROMO-0226,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2025-12-08,21.4,33.4,Display,73.8,11.3
+PROMO-0227,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2025-12-08,36.5,21.2,Feature,72.9,16.2
+PROMO-0228,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2025-12-08,22.0,10.4,Digital only,74.8,17.1
+PROMO-0229,CUST03,Northstar Independent Co-op,CAT02-SKU03,Better-for-You Snacks,2025-12-08,20.8,19.4,Feature,91.7,6.4
+PROMO-0230,CUST03,Northstar Independent Co-op,CAT04-SKU02,Natural Personal Care,2025-12-08,12.5,21.9,Display,67.1,8.5
+PROMO-0231,CUST03,Northstar Independent Co-op,CAT04-SKU04,Natural Personal Care,2025-12-08,17.8,5.7,Display,65.8,6.7
+PROMO-0232,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2025-12-08,19.7,17.4,Feature,74.9,8.6
+PROMO-0233,CUST03,Northstar Independent Co-op,CAT05-SKU05,Organic Pantry Staples,2025-12-08,36.3,8.0,Display,75.7,6.8
+PROMO-0234,CUST03,Northstar Independent Co-op,CAT06-SKU03,Fresh Specialty Cheese,2025-12-08,13.6,33.6,Digital only,68.4,6.4
+PROMO-0235,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2025-12-08,24.3,17.1,Digital only,75.1,12.1
+PROMO-0236,CUST03,Northstar Independent Co-op,CAT06-SKU06,Fresh Specialty Cheese,2025-12-08,31.2,7.4,Display,72.5,6.3
+PROMO-0237,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2025-12-08,35.6,12.0,Feature and display,90.1,14.3
+PROMO-0238,CUST04,Fresh Table Supermarkets,CAT01-SKU04,Functional Beverages,2025-12-08,28.1,33.8,Digital only,87.2,14.5
+PROMO-0239,CUST04,Fresh Table Supermarkets,CAT01-SKU05,Functional Beverages,2025-12-08,24.4,27.0,Feature,85.3,15.7
+PROMO-0240,CUST05,Urban Pantry Express,CAT04-SKU01,Natural Personal Care,2025-12-08,32.9,33.1,Display,73.2,12.0
+PROMO-0241,CUST05,Urban Pantry Express,CAT05-SKU02,Organic Pantry Staples,2025-12-08,36.0,26.7,Digital only,79.7,9.9
+PROMO-0242,CUST05,Urban Pantry Express,CAT05-SKU05,Organic Pantry Staples,2025-12-08,20.3,10.7,Display,65.8,10.8
+PROMO-0243,CUST05,Urban Pantry Express,CAT06-SKU06,Fresh Specialty Cheese,2025-12-08,10.4,27.5,Feature,89.6,10.9
+PROMO-0244,CUST01,Central Market Group,CAT01-SKU05,Functional Beverages,2025-12-15,37.6,25.4,Feature,93.2,10.3
+PROMO-0245,CUST01,Central Market Group,CAT03-SKU04,Plant-Based Meals,2025-12-15,21.7,31.8,Feature,73.9,6.6
+PROMO-0246,CUST01,Central Market Group,CAT05-SKU02,Organic Pantry Staples,2025-12-15,32.7,11.0,Feature and display,99,11.0
+PROMO-0247,CUST01,Central Market Group,CAT05-SKU04,Organic Pantry Staples,2025-12-15,23.1,5.6,Feature and display,71.1,8.7
+PROMO-0248,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2025-12-15,14.6,29.3,Feature and display,71.4,13.7
+PROMO-0249,CUST02,Sproutline Natural Markets,CAT04-SKU03,Natural Personal Care,2025-12-15,20.7,15.1,Feature,94.6,15.8
+PROMO-0250,CUST02,Sproutline Natural Markets,CAT06-SKU05,Fresh Specialty Cheese,2025-12-15,16.0,21.3,Display,57.7,15.9
+PROMO-0251,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2025-12-15,15.6,24.4,Feature,43.3,17.0
+PROMO-0252,CUST03,Northstar Independent Co-op,CAT03-SKU05,Plant-Based Meals,2025-12-15,36.3,30.7,Display,83.6,8.7
+PROMO-0253,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2025-12-15,21.9,15.7,Digital only,89.7,12.2
+PROMO-0254,CUST03,Northstar Independent Co-op,CAT05-SKU03,Organic Pantry Staples,2025-12-15,30.9,8.3,Digital only,79.0,14.3
+PROMO-0255,CUST04,Fresh Table Supermarkets,CAT01-SKU02,Functional Beverages,2025-12-15,18.8,30.5,Feature,83.0,12.2
+PROMO-0256,CUST04,Fresh Table Supermarkets,CAT02-SKU01,Better-for-You Snacks,2025-12-15,28.9,18.7,Feature and display,92.7,14.5
+PROMO-0257,CUST04,Fresh Table Supermarkets,CAT02-SKU02,Better-for-You Snacks,2025-12-15,27.4,12.5,Feature,89.5,14.5
+PROMO-0258,CUST04,Fresh Table Supermarkets,CAT04-SKU06,Natural Personal Care,2025-12-15,16.4,31.3,Feature,83.8,16.7
+PROMO-0259,CUST04,Fresh Table Supermarkets,CAT05-SKU05,Organic Pantry Staples,2025-12-15,33.7,7.2,Digital only,76.6,17.3
+PROMO-0260,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-12-15,11.7,12.4,Feature and display,80.8,8.7
+PROMO-0261,CUST05,Urban Pantry Express,CAT02-SKU03,Better-for-You Snacks,2025-12-15,25.7,5.3,Display,93.1,15.1
+PROMO-0262,CUST05,Urban Pantry Express,CAT03-SKU04,Plant-Based Meals,2025-12-15,13.5,15.6,Digital only,88.5,8.2
+PROMO-0263,CUST05,Urban Pantry Express,CAT05-SKU02,Organic Pantry Staples,2025-12-15,13.1,5.0,Digital only,47.9,6.9
+PROMO-0264,CUST01,Central Market Group,CAT01-SKU06,Functional Beverages,2025-12-22,16.6,4.7,Feature,72.2,6.8
+PROMO-0265,CUST01,Central Market Group,CAT02-SKU05,Better-for-You Snacks,2025-12-22,34.8,31.0,Feature and display,89.3,13.2
+PROMO-0266,CUST01,Central Market Group,CAT03-SKU02,Plant-Based Meals,2025-12-22,31.6,29.8,Feature and display,87.0,12.4
+PROMO-0267,CUST01,Central Market Group,CAT04-SKU04,Natural Personal Care,2025-12-22,10.9,9.6,Digital only,82.0,15.7
+PROMO-0268,CUST01,Central Market Group,CAT05-SKU02,Organic Pantry Staples,2025-12-22,11.5,23.2,Feature,78.1,11.4
+PROMO-0269,CUST01,Central Market Group,CAT05-SKU05,Organic Pantry Staples,2025-12-22,13.4,17.9,Feature and display,63.3,9.9
+PROMO-0270,CUST02,Sproutline Natural Markets,CAT02-SKU05,Better-for-You Snacks,2025-12-22,22.2,33.5,Digital only,74.8,16.3
+PROMO-0271,CUST02,Sproutline Natural Markets,CAT03-SKU04,Plant-Based Meals,2025-12-22,29.0,30.3,Digital only,86.8,15.1
+PROMO-0272,CUST02,Sproutline Natural Markets,CAT06-SKU01,Fresh Specialty Cheese,2025-12-22,24.9,23.9,Feature,93.4,8.9
+PROMO-0273,CUST03,Northstar Independent Co-op,CAT01-SKU01,Functional Beverages,2025-12-22,35.0,30.7,Digital only,86.9,10.8
+PROMO-0274,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2025-12-22,30.3,26.2,Digital only,84.3,16.4
+PROMO-0275,CUST03,Northstar Independent Co-op,CAT04-SKU03,Natural Personal Care,2025-12-22,32.6,12.1,Feature,81.0,17.6
+PROMO-0276,CUST03,Northstar Independent Co-op,CAT05-SKU04,Organic Pantry Staples,2025-12-22,32.1,4.1,Feature and display,99,11.9
+PROMO-0277,CUST04,Fresh Table Supermarkets,CAT01-SKU06,Functional Beverages,2025-12-22,20.7,26.3,Feature and display,62.1,9.9
+PROMO-0278,CUST04,Fresh Table Supermarkets,CAT02-SKU05,Better-for-You Snacks,2025-12-22,15.4,6.0,Feature and display,66.2,14.4
+PROMO-0279,CUST04,Fresh Table Supermarkets,CAT02-SKU06,Better-for-You Snacks,2025-12-22,21.3,30.1,Feature,46.6,14.8
+PROMO-0280,CUST04,Fresh Table Supermarkets,CAT03-SKU02,Plant-Based Meals,2025-12-22,33.4,16.7,Display,78.7,16.3
+PROMO-0281,CUST04,Fresh Table Supermarkets,CAT04-SKU01,Natural Personal Care,2025-12-22,16.1,16.7,Display,63.4,16.6
+PROMO-0282,CUST04,Fresh Table Supermarkets,CAT05-SKU03,Organic Pantry Staples,2025-12-22,22.7,26.2,Feature and display,72.1,12.5
+PROMO-0283,CUST04,Fresh Table Supermarkets,CAT06-SKU01,Fresh Specialty Cheese,2025-12-22,19.0,14.2,Digital only,51.9,8.3
+PROMO-0284,CUST04,Fresh Table Supermarkets,CAT06-SKU04,Fresh Specialty Cheese,2025-12-22,16.0,9.9,Display,83.1,7.3
+PROMO-0285,CUST05,Urban Pantry Express,CAT01-SKU01,Functional Beverages,2025-12-22,15.4,14.2,Display,70.4,6.3
+PROMO-0286,CUST05,Urban Pantry Express,CAT06-SKU03,Fresh Specialty Cheese,2025-12-22,17.8,23.3,Feature,89.2,12.5
+PROMO-0287,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2025-12-29,29.7,21.8,Feature and display,91.0,11.4
+PROMO-0288,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2025-12-29,14.7,5.5,Feature and display,93.6,6.4
+PROMO-0289,CUST01,Central Market Group,CAT02-SKU06,Better-for-You Snacks,2025-12-29,29.1,17.2,Display,92.1,6.9
+PROMO-0290,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2025-12-29,30.0,26.8,Feature,66.4,13.0
+PROMO-0291,CUST01,Central Market Group,CAT05-SKU06,Organic Pantry Staples,2025-12-29,30.9,4.8,Digital only,82.9,8.0
+PROMO-0292,CUST01,Central Market Group,CAT06-SKU04,Fresh Specialty Cheese,2025-12-29,31.3,9.4,Digital only,91.6,12.3
+PROMO-0293,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2025-12-29,34.3,26.1,Display,70.3,10.5
+PROMO-0294,CUST02,Sproutline Natural Markets,CAT04-SKU02,Natural Personal Care,2025-12-29,12.3,6.8,Feature,86.2,11.3
+PROMO-0295,CUST02,Sproutline Natural Markets,CAT04-SKU04,Natural Personal Care,2025-12-29,32.7,24.6,Digital only,77.6,7.4
+PROMO-0296,CUST03,Northstar Independent Co-op,CAT01-SKU01,Functional Beverages,2025-12-29,16.9,32.7,Digital only,63.0,12.8
+PROMO-0297,CUST03,Northstar Independent Co-op,CAT01-SKU02,Functional Beverages,2025-12-29,30.4,29.1,Digital only,77.9,14.9
+PROMO-0298,CUST03,Northstar Independent Co-op,CAT01-SKU04,Functional Beverages,2025-12-29,25.5,18.2,Digital only,52.5,10.1
+PROMO-0299,CUST03,Northstar Independent Co-op,CAT01-SKU06,Functional Beverages,2025-12-29,18.1,33.1,Feature,83.7,11.0
+PROMO-0300,CUST03,Northstar Independent Co-op,CAT03-SKU01,Plant-Based Meals,2025-12-29,14.5,20.1,Feature and display,74.8,9.0
+PROMO-0301,CUST03,Northstar Independent Co-op,CAT03-SKU04,Plant-Based Meals,2025-12-29,35.0,23.4,Digital only,88.5,15.6
+PROMO-0302,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2025-12-29,30.0,8.2,Digital only,62.3,12.4
+PROMO-0303,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2025-12-29,12.3,11.2,Display,88.3,15.4
+PROMO-0304,CUST04,Fresh Table Supermarkets,CAT02-SKU03,Better-for-You Snacks,2025-12-29,23.8,13.1,Display,91.6,13.5
+PROMO-0305,CUST04,Fresh Table Supermarkets,CAT02-SKU04,Better-for-You Snacks,2025-12-29,12.9,4.1,Feature,50.4,16.9
+PROMO-0306,CUST04,Fresh Table Supermarkets,CAT04-SKU04,Natural Personal Care,2025-12-29,25.4,17.7,Digital only,79.5,15.6
+PROMO-0307,CUST04,Fresh Table Supermarkets,CAT05-SKU03,Organic Pantry Staples,2025-12-29,37.6,15.0,Display,90.2,12.9
+PROMO-0308,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2025-12-29,31.3,27.7,Digital only,76.0,10.5
+PROMO-0309,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2025-12-29,35.2,29.4,Digital only,94.7,16.3
+PROMO-0310,CUST05,Urban Pantry Express,CAT05-SKU01,Organic Pantry Staples,2025-12-29,34.2,17.2,Feature,64.8,12.0
+PROMO-0311,CUST05,Urban Pantry Express,CAT05-SKU03,Organic Pantry Staples,2025-12-29,17.1,4.3,Display,77.5,7.8
+PROMO-0312,CUST05,Urban Pantry Express,CAT06-SKU05,Fresh Specialty Cheese,2025-12-29,16.2,19.4,Digital only,73.5,9.7
+PROMO-0313,CUST01,Central Market Group,CAT03-SKU01,Plant-Based Meals,2026-01-05,13.1,13.9,Feature and display,66.2,7.3
+PROMO-0314,CUST01,Central Market Group,CAT03-SKU06,Plant-Based Meals,2026-01-05,10.8,6.3,Display,84.7,8.9
+PROMO-0315,CUST01,Central Market Group,CAT04-SKU02,Natural Personal Care,2026-01-05,16.5,26.6,Feature and display,68.2,8.5
+PROMO-0316,CUST01,Central Market Group,CAT04-SKU06,Natural Personal Care,2026-01-05,16.1,28.4,Digital only,70.6,9.7
+PROMO-0317,CUST01,Central Market Group,CAT06-SKU02,Fresh Specialty Cheese,2026-01-05,33.5,28.5,Feature,79.3,7.7
+PROMO-0318,CUST01,Central Market Group,CAT06-SKU03,Fresh Specialty Cheese,2026-01-05,26.3,17.5,Display,99,16.0
+PROMO-0319,CUST01,Central Market Group,CAT06-SKU06,Fresh Specialty Cheese,2026-01-05,26.0,23.2,Feature,64.5,12.3
+PROMO-0320,CUST02,Sproutline Natural Markets,CAT01-SKU03,Functional Beverages,2026-01-05,10.6,19.2,Digital only,99,16.6
+PROMO-0321,CUST02,Sproutline Natural Markets,CAT02-SKU06,Better-for-You Snacks,2026-01-05,34.5,7.6,Feature,78.8,9.1
+PROMO-0322,CUST02,Sproutline Natural Markets,CAT03-SKU02,Plant-Based Meals,2026-01-05,11.4,33.7,Feature,80.8,7.0
+PROMO-0323,CUST02,Sproutline Natural Markets,CAT03-SKU04,Plant-Based Meals,2026-01-05,21.5,24.2,Feature,80.9,9.3
+PROMO-0324,CUST02,Sproutline Natural Markets,CAT03-SKU06,Plant-Based Meals,2026-01-05,29.0,11.9,Feature and display,84.5,6.8
+PROMO-0325,CUST02,Sproutline Natural Markets,CAT04-SKU04,Natural Personal Care,2026-01-05,11.3,25.5,Feature and display,77.2,17.6
+PROMO-0326,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2026-01-05,15.8,14.1,Feature and display,84.7,11.0
+PROMO-0327,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2026-01-05,14.9,17.2,Digital only,80.1,7.7
+PROMO-0328,CUST03,Northstar Independent Co-op,CAT01-SKU03,Functional Beverages,2026-01-05,18.1,29.7,Feature and display,86.9,10.6
+PROMO-0329,CUST03,Northstar Independent Co-op,CAT01-SKU04,Functional Beverages,2026-01-05,29.7,4.8,Feature,84.9,10.1
+PROMO-0330,CUST03,Northstar Independent Co-op,CAT01-SKU06,Functional Beverages,2026-01-05,14.1,19.9,Display,75.5,8.1
+PROMO-0331,CUST03,Northstar Independent Co-op,CAT03-SKU01,Plant-Based Meals,2026-01-05,35.4,27.5,Digital only,79.5,17.7
+PROMO-0332,CUST03,Northstar Independent Co-op,CAT04-SKU03,Natural Personal Care,2026-01-05,27.6,5.7,Feature,92.1,10.8
+PROMO-0333,CUST03,Northstar Independent Co-op,CAT06-SKU01,Fresh Specialty Cheese,2026-01-05,20.7,13.6,Digital only,69.7,12.3
+PROMO-0334,CUST03,Northstar Independent Co-op,CAT06-SKU05,Fresh Specialty Cheese,2026-01-05,26.4,12.5,Feature,69.6,11.9
+PROMO-0335,CUST04,Fresh Table Supermarkets,CAT02-SKU02,Better-for-You Snacks,2026-01-05,12.2,13.8,Display,89.4,11.3
+PROMO-0336,CUST04,Fresh Table Supermarkets,CAT06-SKU01,Fresh Specialty Cheese,2026-01-05,23.9,33.4,Feature and display,81.0,13.0
+PROMO-0337,CUST04,Fresh Table Supermarkets,CAT06-SKU03,Fresh Specialty Cheese,2026-01-05,15.3,33.6,Digital only,67.3,15.9
+PROMO-0338,CUST05,Urban Pantry Express,CAT01-SKU02,Functional Beverages,2026-01-05,11.8,24.7,Display,60.7,8.1
+PROMO-0339,CUST05,Urban Pantry Express,CAT02-SKU02,Better-for-You Snacks,2026-01-05,35.8,22.1,Feature,52.4,15.4
+PROMO-0340,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2026-01-05,11.5,4.8,Feature and display,80.3,12.3
+PROMO-0341,CUST05,Urban Pantry Express,CAT06-SKU03,Fresh Specialty Cheese,2026-01-05,24.4,8.8,Feature,89.6,8.9
+PROMO-0342,CUST05,Urban Pantry Express,CAT06-SKU04,Fresh Specialty Cheese,2026-01-05,21.9,26.3,Digital only,82.4,7.1
+PROMO-0343,CUST01,Central Market Group,CAT02-SKU02,Better-for-You Snacks,2026-01-12,18.4,25.4,Digital only,99,17.2
+PROMO-0344,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2026-01-12,34.6,12.1,Feature,65.9,14.4
+PROMO-0345,CUST01,Central Market Group,CAT02-SKU04,Better-for-You Snacks,2026-01-12,23.2,18.1,Digital only,57.7,16.9
+PROMO-0346,CUST01,Central Market Group,CAT03-SKU04,Plant-Based Meals,2026-01-12,24.8,25.8,Display,75.9,9.7
+PROMO-0347,CUST01,Central Market Group,CAT04-SKU04,Natural Personal Care,2026-01-12,22.9,7.8,Feature and display,58.8,16.8
+PROMO-0348,CUST01,Central Market Group,CAT05-SKU05,Organic Pantry Staples,2026-01-12,21.0,27.4,Feature,69.9,11.3
+PROMO-0349,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2026-01-12,37.3,29.0,Feature,76.0,16.8
+PROMO-0350,CUST02,Sproutline Natural Markets,CAT03-SKU06,Plant-Based Meals,2026-01-12,31.2,5.7,Feature,79.0,6.5
+PROMO-0351,CUST02,Sproutline Natural Markets,CAT04-SKU05,Natural Personal Care,2026-01-12,24.2,8.1,Feature and display,60.4,14.5
+PROMO-0352,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2026-01-12,18.2,16.0,Display,80.8,6.8
+PROMO-0353,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2026-01-12,35.4,17.0,Digital only,84.0,14.5
+PROMO-0354,CUST02,Sproutline Natural Markets,CAT06-SKU02,Fresh Specialty Cheese,2026-01-12,32.5,7.8,Digital only,85.3,10.1
+PROMO-0355,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2026-01-12,34.8,29.8,Feature,88.8,8.0
+PROMO-0356,CUST03,Northstar Independent Co-op,CAT04-SKU02,Natural Personal Care,2026-01-12,17.9,31.4,Digital only,71.1,6.6
+PROMO-0357,CUST03,Northstar Independent Co-op,CAT04-SKU05,Natural Personal Care,2026-01-12,18.1,34.0,Feature and display,88.4,12.9
+PROMO-0358,CUST03,Northstar Independent Co-op,CAT06-SKU01,Fresh Specialty Cheese,2026-01-12,37.2,21.0,Display,88.3,13.9
+PROMO-0359,CUST03,Northstar Independent Co-op,CAT06-SKU06,Fresh Specialty Cheese,2026-01-12,17.6,20.6,Display,99,15.3
+PROMO-0360,CUST04,Fresh Table Supermarkets,CAT02-SKU06,Better-for-You Snacks,2026-01-12,32.8,13.8,Display,98.4,8.1
+PROMO-0361,CUST04,Fresh Table Supermarkets,CAT03-SKU04,Plant-Based Meals,2026-01-12,13.3,24.0,Display,42,8.1
+PROMO-0362,CUST04,Fresh Table Supermarkets,CAT04-SKU01,Natural Personal Care,2026-01-12,17.5,6.1,Display,89.6,8.6
+PROMO-0363,CUST04,Fresh Table Supermarkets,CAT04-SKU05,Natural Personal Care,2026-01-12,34.8,18.9,Feature,89.6,11.5
+PROMO-0364,CUST04,Fresh Table Supermarkets,CAT06-SKU02,Fresh Specialty Cheese,2026-01-12,18.5,16.9,Display,45.5,7.1
+PROMO-0365,CUST04,Fresh Table Supermarkets,CAT06-SKU03,Fresh Specialty Cheese,2026-01-12,12.9,12.9,Display,67.6,9.3
+PROMO-0366,CUST04,Fresh Table Supermarkets,CAT06-SKU06,Fresh Specialty Cheese,2026-01-12,15.0,5.9,Feature and display,86.8,14.7
+PROMO-0367,CUST05,Urban Pantry Express,CAT02-SKU05,Better-for-You Snacks,2026-01-12,18.9,11.8,Digital only,72.4,12.5
+PROMO-0368,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2026-01-12,25.9,9.7,Digital only,55.3,17.0
+PROMO-0369,CUST05,Urban Pantry Express,CAT05-SKU06,Organic Pantry Staples,2026-01-12,26.1,32.9,Digital only,62.3,7.5
+PROMO-0370,CUST05,Urban Pantry Express,CAT06-SKU01,Fresh Specialty Cheese,2026-01-12,28.3,22.0,Digital only,62.9,10.2
+PROMO-0371,CUST05,Urban Pantry Express,CAT06-SKU05,Fresh Specialty Cheese,2026-01-12,28.9,32.5,Feature and display,75.6,14.1
+PROMO-0372,CUST01,Central Market Group,CAT01-SKU02,Functional Beverages,2026-01-19,31.0,23.5,Display,77.2,12.1
+PROMO-0373,CUST01,Central Market Group,CAT01-SKU03,Functional Beverages,2026-01-19,18.3,24.7,Digital only,72.6,9.5
+PROMO-0374,CUST01,Central Market Group,CAT02-SKU04,Better-for-You Snacks,2026-01-19,11.3,30.4,Feature and display,78.1,12.7
+PROMO-0375,CUST01,Central Market Group,CAT04-SKU01,Natural Personal Care,2026-01-19,20.7,7.5,Feature,85.3,13.3
+PROMO-0376,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2026-01-19,25.7,32.5,Digital only,68.3,15.2
+PROMO-0377,CUST01,Central Market Group,CAT04-SKU04,Natural Personal Care,2026-01-19,27.6,10.3,Feature and display,42,13.8
+PROMO-0378,CUST01,Central Market Group,CAT05-SKU01,Organic Pantry Staples,2026-01-19,11.0,17.7,Display,71.1,13.9
+PROMO-0379,CUST01,Central Market Group,CAT06-SKU05,Fresh Specialty Cheese,2026-01-19,12.3,17.6,Feature and display,74.9,16.9
+PROMO-0380,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2026-01-19,13.7,31.0,Feature and display,75.8,13.2
+PROMO-0381,CUST02,Sproutline Natural Markets,CAT04-SKU05,Natural Personal Care,2026-01-19,28.6,18.0,Display,95.2,14.4
+PROMO-0382,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2026-01-19,34.7,18.9,Feature and display,75.3,9.0
+PROMO-0383,CUST03,Northstar Independent Co-op,CAT01-SKU03,Functional Beverages,2026-01-19,21.8,9.9,Display,79.9,9.6
+PROMO-0384,CUST03,Northstar Independent Co-op,CAT03-SKU03,Plant-Based Meals,2026-01-19,22.9,20.6,Display,87.6,13.9
+PROMO-0385,CUST03,Northstar Independent Co-op,CAT03-SKU04,Plant-Based Meals,2026-01-19,13.4,25.9,Feature and display,63.6,8.1
+PROMO-0386,CUST03,Northstar Independent Co-op,CAT04-SKU05,Natural Personal Care,2026-01-19,24.6,21.9,Feature and display,76.4,11.2
+PROMO-0387,CUST04,Fresh Table Supermarkets,CAT01-SKU03,Functional Beverages,2026-01-19,33.6,25.8,Feature and display,57.6,9.7
+PROMO-0388,CUST04,Fresh Table Supermarkets,CAT01-SKU05,Functional Beverages,2026-01-19,30.4,8.2,Digital only,48.9,7.4
+PROMO-0389,CUST04,Fresh Table Supermarkets,CAT03-SKU03,Plant-Based Meals,2026-01-19,15.3,28.9,Digital only,75.5,9.0
+PROMO-0390,CUST04,Fresh Table Supermarkets,CAT03-SKU05,Plant-Based Meals,2026-01-19,12.4,24.2,Digital only,83.9,11.6
+PROMO-0391,CUST04,Fresh Table Supermarkets,CAT04-SKU02,Natural Personal Care,2026-01-19,21.1,14.6,Display,79.9,11.4
+PROMO-0392,CUST04,Fresh Table Supermarkets,CAT05-SKU01,Organic Pantry Staples,2026-01-19,17.7,27.3,Feature and display,73.6,9.9
+PROMO-0393,CUST04,Fresh Table Supermarkets,CAT06-SKU01,Fresh Specialty Cheese,2026-01-19,16.0,17.8,Feature,86.1,6.7
+PROMO-0394,CUST05,Urban Pantry Express,CAT01-SKU01,Functional Beverages,2026-01-19,23.8,27.1,Display,48.5,6.6
+PROMO-0395,CUST05,Urban Pantry Express,CAT01-SKU02,Functional Beverages,2026-01-19,17.1,18.3,Digital only,80.9,16.0
+PROMO-0396,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2026-01-19,18.4,33.2,Feature,70.0,16.1
+PROMO-0397,CUST05,Urban Pantry Express,CAT03-SKU02,Plant-Based Meals,2026-01-19,33.2,8.9,Feature,67.2,11.9
+PROMO-0398,CUST05,Urban Pantry Express,CAT05-SKU06,Organic Pantry Staples,2026-01-19,37.8,33.2,Feature,45.8,8.1
+PROMO-0399,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2026-01-26,10.9,8.1,Feature and display,93.9,12.6
+PROMO-0400,CUST01,Central Market Group,CAT02-SKU04,Better-for-You Snacks,2026-01-26,27.1,23.9,Display,80.4,9.7
+PROMO-0401,CUST01,Central Market Group,CAT03-SKU04,Plant-Based Meals,2026-01-26,21.4,15.4,Feature,59.4,17.8
+PROMO-0402,CUST01,Central Market Group,CAT06-SKU03,Fresh Specialty Cheese,2026-01-26,26.3,6.0,Digital only,49.9,15.2
+PROMO-0403,CUST02,Sproutline Natural Markets,CAT01-SKU06,Functional Beverages,2026-01-26,23.8,31.3,Feature,92.0,15.1
+PROMO-0404,CUST02,Sproutline Natural Markets,CAT04-SKU01,Natural Personal Care,2026-01-26,35.5,12.1,Display,72.8,7.6
+PROMO-0405,CUST02,Sproutline Natural Markets,CAT04-SKU04,Natural Personal Care,2026-01-26,10.2,12.1,Feature and display,64.5,8.3
+PROMO-0406,CUST02,Sproutline Natural Markets,CAT04-SKU06,Natural Personal Care,2026-01-26,32.8,23.0,Digital only,98.9,15.0
+PROMO-0407,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2026-01-26,22.3,16.6,Digital only,78.2,14.1
+PROMO-0408,CUST02,Sproutline Natural Markets,CAT05-SKU05,Organic Pantry Staples,2026-01-26,30.9,31.1,Display,61.5,13.2
+PROMO-0409,CUST02,Sproutline Natural Markets,CAT05-SKU06,Organic Pantry Staples,2026-01-26,10.8,23.1,Feature and display,99,7.5
+PROMO-0410,CUST03,Northstar Independent Co-op,CAT01-SKU02,Functional Beverages,2026-01-26,22.2,21.8,Feature and display,68.1,14.6
+PROMO-0411,CUST03,Northstar Independent Co-op,CAT01-SKU03,Functional Beverages,2026-01-26,28.7,24.6,Digital only,94.6,7.2
+PROMO-0412,CUST03,Northstar Independent Co-op,CAT02-SKU02,Better-for-You Snacks,2026-01-26,14.7,24.3,Display,76.0,6.4
+PROMO-0413,CUST03,Northstar Independent Co-op,CAT03-SKU01,Plant-Based Meals,2026-01-26,14.5,25.1,Digital only,59.1,13.2
+PROMO-0414,CUST03,Northstar Independent Co-op,CAT04-SKU05,Natural Personal Care,2026-01-26,22.8,19.7,Display,69.6,13.7
+PROMO-0415,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2026-01-26,13.6,10.0,Digital only,80.7,6.5
+PROMO-0416,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2026-01-26,23.4,17.8,Feature and display,87.2,10.1
+PROMO-0417,CUST03,Northstar Independent Co-op,CAT06-SKU02,Fresh Specialty Cheese,2026-01-26,13.2,20.4,Digital only,76.7,13.8
+PROMO-0418,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2026-01-26,34.9,21.9,Feature,77.6,17.8
+PROMO-0419,CUST04,Fresh Table Supermarkets,CAT01-SKU05,Functional Beverages,2026-01-26,22.1,19.1,Feature,81.5,9.1
+PROMO-0420,CUST04,Fresh Table Supermarkets,CAT02-SKU01,Better-for-You Snacks,2026-01-26,19.4,23.2,Digital only,74.6,10.5
+PROMO-0421,CUST04,Fresh Table Supermarkets,CAT02-SKU05,Better-for-You Snacks,2026-01-26,26.4,31.9,Digital only,74.2,13.9
+PROMO-0422,CUST04,Fresh Table Supermarkets,CAT03-SKU02,Plant-Based Meals,2026-01-26,16.8,18.4,Feature and display,68.2,15.8
+PROMO-0423,CUST05,Urban Pantry Express,CAT04-SKU04,Natural Personal Care,2026-01-26,24.9,17.7,Digital only,85.6,13.7
+PROMO-0424,CUST05,Urban Pantry Express,CAT05-SKU03,Organic Pantry Staples,2026-01-26,25.6,12.8,Feature,89.7,16.3
+PROMO-0425,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2026-01-26,25.2,16.1,Feature and display,77.2,14.2
+PROMO-0426,CUST05,Urban Pantry Express,CAT05-SKU05,Organic Pantry Staples,2026-01-26,34.5,19.4,Feature,94.2,10.5
+PROMO-0427,CUST05,Urban Pantry Express,CAT06-SKU04,Fresh Specialty Cheese,2026-01-26,11.7,15.4,Feature,67.7,12.6
+PROMO-0428,CUST01,Central Market Group,CAT01-SKU03,Functional Beverages,2026-02-02,12.6,7.3,Feature,52.2,10.9
+PROMO-0429,CUST01,Central Market Group,CAT01-SKU06,Functional Beverages,2026-02-02,35.1,23.2,Display,63.6,11.4
+PROMO-0430,CUST01,Central Market Group,CAT03-SKU05,Plant-Based Meals,2026-02-02,25.7,14.1,Digital only,81.4,13.8
+PROMO-0431,CUST01,Central Market Group,CAT04-SKU05,Natural Personal Care,2026-02-02,25.7,27.7,Feature and display,85.7,9.5
+PROMO-0432,CUST01,Central Market Group,CAT04-SKU06,Natural Personal Care,2026-02-02,11.5,6.5,Digital only,78.9,13.1
+PROMO-0433,CUST01,Central Market Group,CAT06-SKU04,Fresh Specialty Cheese,2026-02-02,34.8,23.8,Digital only,69.3,13.9
+PROMO-0434,CUST02,Sproutline Natural Markets,CAT01-SKU01,Functional Beverages,2026-02-02,24.6,21.2,Digital only,76.7,10.2
+PROMO-0435,CUST02,Sproutline Natural Markets,CAT01-SKU06,Functional Beverages,2026-02-02,16.8,24.8,Digital only,96.1,12.9
+PROMO-0436,CUST02,Sproutline Natural Markets,CAT04-SKU02,Natural Personal Care,2026-02-02,28.0,9.7,Display,77.8,7.1
+PROMO-0437,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2026-02-02,25.2,11.8,Feature and display,78.3,7.3
+PROMO-0438,CUST03,Northstar Independent Co-op,CAT06-SKU05,Fresh Specialty Cheese,2026-02-02,30.2,23.6,Digital only,72.8,10.8
+PROMO-0439,CUST04,Fresh Table Supermarkets,CAT01-SKU04,Functional Beverages,2026-02-02,28.0,15.5,Display,58.6,10.6
+PROMO-0440,CUST04,Fresh Table Supermarkets,CAT03-SKU02,Plant-Based Meals,2026-02-02,20.2,25.2,Digital only,94.9,16.4
+PROMO-0441,CUST04,Fresh Table Supermarkets,CAT06-SKU04,Fresh Specialty Cheese,2026-02-02,18.0,18.9,Feature,61.8,10.6
+PROMO-0442,CUST05,Urban Pantry Express,CAT01-SKU03,Functional Beverages,2026-02-02,12.7,21.2,Feature and display,72.1,14.6
+PROMO-0443,CUST05,Urban Pantry Express,CAT02-SKU06,Better-for-You Snacks,2026-02-02,12.1,16.9,Display,76.5,7.6
+PROMO-0444,CUST05,Urban Pantry Express,CAT03-SKU04,Plant-Based Meals,2026-02-02,21.7,8.2,Feature,85.1,16.2
+PROMO-0445,CUST05,Urban Pantry Express,CAT03-SKU05,Plant-Based Meals,2026-02-02,20.7,9.5,Digital only,65.8,15.0
+PROMO-0446,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2026-02-02,21.6,19.4,Display,79.0,9.2
+PROMO-0447,CUST05,Urban Pantry Express,CAT05-SKU01,Organic Pantry Staples,2026-02-02,35.6,20.4,Display,71.9,10.4
+PROMO-0448,CUST05,Urban Pantry Express,CAT06-SKU02,Fresh Specialty Cheese,2026-02-02,35.6,29.7,Feature,70.5,13.0
+PROMO-0449,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2026-02-09,20.3,23.9,Digital only,76.4,9.8
+PROMO-0450,CUST01,Central Market Group,CAT02-SKU01,Better-for-You Snacks,2026-02-09,20.3,20.5,Display,66.7,8.4
+PROMO-0451,CUST01,Central Market Group,CAT05-SKU06,Organic Pantry Staples,2026-02-09,12.0,31.1,Display,97.7,13.9
+PROMO-0452,CUST01,Central Market Group,CAT06-SKU03,Fresh Specialty Cheese,2026-02-09,34.4,15.5,Digital only,78.6,8.5
+PROMO-0453,CUST02,Sproutline Natural Markets,CAT01-SKU01,Functional Beverages,2026-02-09,34.1,27.2,Display,81.6,9.6
+PROMO-0454,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2026-02-09,26.6,14.5,Digital only,72.4,10.8
+PROMO-0455,CUST02,Sproutline Natural Markets,CAT03-SKU01,Plant-Based Meals,2026-02-09,13.9,15.1,Feature,51.1,17.6
+PROMO-0456,CUST02,Sproutline Natural Markets,CAT03-SKU03,Plant-Based Meals,2026-02-09,36.7,27.0,Display,82.2,8.1
+PROMO-0457,CUST02,Sproutline Natural Markets,CAT05-SKU01,Organic Pantry Staples,2026-02-09,20.9,27.0,Digital only,78.1,7.1
+PROMO-0458,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2026-02-09,20.6,11.7,Display,54.2,16.8
+PROMO-0459,CUST03,Northstar Independent Co-op,CAT02-SKU06,Better-for-You Snacks,2026-02-09,19.4,27.3,Feature and display,71.0,10.0
+PROMO-0460,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2026-02-09,31.1,21.8,Feature,80.9,16.8
+PROMO-0461,CUST03,Northstar Independent Co-op,CAT05-SKU06,Organic Pantry Staples,2026-02-09,36.7,11.2,Feature,68.5,12.7
+PROMO-0462,CUST03,Northstar Independent Co-op,CAT06-SKU05,Fresh Specialty Cheese,2026-02-09,13.3,23.0,Feature,44.4,12.8
+PROMO-0463,CUST04,Fresh Table Supermarkets,CAT04-SKU05,Natural Personal Care,2026-02-09,31.6,33.5,Digital only,92.6,13.4
+PROMO-0464,CUST04,Fresh Table Supermarkets,CAT04-SKU06,Natural Personal Care,2026-02-09,19.2,6.2,Display,92.3,12.7
+PROMO-0465,CUST04,Fresh Table Supermarkets,CAT05-SKU06,Organic Pantry Staples,2026-02-09,30.4,25.9,Feature and display,57.5,7.9
+PROMO-0466,CUST04,Fresh Table Supermarkets,CAT06-SKU06,Fresh Specialty Cheese,2026-02-09,13.3,21.9,Feature and display,83.5,13.3
+PROMO-0467,CUST05,Urban Pantry Express,CAT01-SKU06,Functional Beverages,2026-02-09,30.9,24.1,Feature,65.2,17.3
+PROMO-0468,CUST05,Urban Pantry Express,CAT02-SKU02,Better-for-You Snacks,2026-02-09,37.2,4.3,Feature,71.2,15.4
+PROMO-0469,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2026-02-09,17.2,31.7,Feature,76.3,13.3
+PROMO-0470,CUST05,Urban Pantry Express,CAT05-SKU01,Organic Pantry Staples,2026-02-09,30.6,18.6,Feature and display,71.5,9.9
+PROMO-0471,CUST05,Urban Pantry Express,CAT05-SKU05,Organic Pantry Staples,2026-02-09,35.8,8.9,Feature and display,67.3,14.0
+PROMO-0472,CUST05,Urban Pantry Express,CAT05-SKU06,Organic Pantry Staples,2026-02-09,27.1,6.6,Feature and display,68.2,8.9
+PROMO-0473,CUST05,Urban Pantry Express,CAT06-SKU04,Fresh Specialty Cheese,2026-02-09,13.8,23.5,Feature and display,49.0,7.9
+PROMO-0474,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2026-02-16,13.8,12.5,Feature,81.1,13.2
+PROMO-0475,CUST01,Central Market Group,CAT02-SKU02,Better-for-You Snacks,2026-02-16,11.0,16.8,Feature and display,79.3,11.8
+PROMO-0476,CUST01,Central Market Group,CAT05-SKU06,Organic Pantry Staples,2026-02-16,33.4,11.9,Digital only,74.5,7.4
+PROMO-0477,CUST01,Central Market Group,CAT06-SKU04,Fresh Specialty Cheese,2026-02-16,19.5,15.0,Display,64.0,17.5
+PROMO-0478,CUST02,Sproutline Natural Markets,CAT01-SKU01,Functional Beverages,2026-02-16,36.6,16.4,Digital only,82.9,17.7
+PROMO-0479,CUST02,Sproutline Natural Markets,CAT02-SKU03,Better-for-You Snacks,2026-02-16,28.4,28.0,Feature and display,76.3,6.6
+PROMO-0480,CUST03,Northstar Independent Co-op,CAT04-SKU04,Natural Personal Care,2026-02-16,30.2,25.8,Display,74.2,9.6
+PROMO-0481,CUST03,Northstar Independent Co-op,CAT05-SKU03,Organic Pantry Staples,2026-02-16,26.0,21.5,Digital only,77.3,14.5
+PROMO-0482,CUST03,Northstar Independent Co-op,CAT05-SKU04,Organic Pantry Staples,2026-02-16,33.1,24.5,Feature,93.4,6.2
+PROMO-0483,CUST03,Northstar Independent Co-op,CAT06-SKU06,Fresh Specialty Cheese,2026-02-16,13.0,14.5,Feature and display,74.2,15.3
+PROMO-0484,CUST04,Fresh Table Supermarkets,CAT04-SKU02,Natural Personal Care,2026-02-16,14.4,11.5,Feature and display,89.2,12.8
+PROMO-0485,CUST04,Fresh Table Supermarkets,CAT05-SKU01,Organic Pantry Staples,2026-02-16,21.9,32.2,Feature,81.5,13.1
+PROMO-0486,CUST04,Fresh Table Supermarkets,CAT06-SKU02,Fresh Specialty Cheese,2026-02-16,32.9,21.7,Display,78.9,15.7
+PROMO-0487,CUST05,Urban Pantry Express,CAT01-SKU05,Functional Beverages,2026-02-16,13.0,25.2,Display,77.8,12.2
+PROMO-0488,CUST05,Urban Pantry Express,CAT04-SKU01,Natural Personal Care,2026-02-16,37.9,29.5,Display,69.9,17.6
+PROMO-0489,CUST05,Urban Pantry Express,CAT06-SKU01,Fresh Specialty Cheese,2026-02-16,33.9,7.4,Digital only,68.0,7.1
+PROMO-0490,CUST05,Urban Pantry Express,CAT06-SKU02,Fresh Specialty Cheese,2026-02-16,36.0,31.1,Display,78.5,11.3
+PROMO-0491,CUST01,Central Market Group,CAT03-SKU03,Plant-Based Meals,2026-02-23,30.4,31.1,Feature,80.7,14.8
+PROMO-0492,CUST01,Central Market Group,CAT03-SKU04,Plant-Based Meals,2026-02-23,20.0,22.8,Feature and display,95.9,13.4
+PROMO-0493,CUST01,Central Market Group,CAT04-SKU01,Natural Personal Care,2026-02-23,31.9,16.3,Feature and display,66.4,7.8
+PROMO-0494,CUST01,Central Market Group,CAT06-SKU05,Fresh Specialty Cheese,2026-02-23,29.8,17.6,Feature and display,70.1,12.6
+PROMO-0495,CUST02,Sproutline Natural Markets,CAT01-SKU05,Functional Beverages,2026-02-23,19.7,22.7,Feature,71.3,9.1
+PROMO-0496,CUST02,Sproutline Natural Markets,CAT02-SKU02,Better-for-You Snacks,2026-02-23,36.9,20.1,Digital only,75.9,7.6
+PROMO-0497,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2026-02-23,24.7,8.0,Feature and display,83.1,10.1
+PROMO-0498,CUST03,Northstar Independent Co-op,CAT04-SKU01,Natural Personal Care,2026-02-23,34.7,25.5,Feature and display,64.9,7.1
+PROMO-0499,CUST03,Northstar Independent Co-op,CAT04-SKU03,Natural Personal Care,2026-02-23,18.4,6.9,Display,68.8,8.6
+PROMO-0500,CUST03,Northstar Independent Co-op,CAT05-SKU04,Organic Pantry Staples,2026-02-23,32.9,20.8,Digital only,89.2,9.6
+PROMO-0501,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2026-02-23,30.3,10.8,Feature and display,77.2,9.5
+PROMO-0502,CUST04,Fresh Table Supermarkets,CAT03-SKU02,Plant-Based Meals,2026-02-23,36.9,17.4,Display,80.8,14.4
+PROMO-0503,CUST04,Fresh Table Supermarkets,CAT03-SKU04,Plant-Based Meals,2026-02-23,12.3,33.1,Feature and display,94.4,12.8
+PROMO-0504,CUST04,Fresh Table Supermarkets,CAT06-SKU05,Fresh Specialty Cheese,2026-02-23,23.0,21.9,Digital only,58.7,15.1
+PROMO-0505,CUST05,Urban Pantry Express,CAT04-SKU06,Natural Personal Care,2026-02-23,30.4,24.1,Feature and display,75.5,9.0
+PROMO-0506,CUST01,Central Market Group,CAT04-SKU05,Natural Personal Care,2026-03-02,13.3,7.8,Feature,95.5,16.1
+PROMO-0507,CUST01,Central Market Group,CAT05-SKU02,Organic Pantry Staples,2026-03-02,21.9,28.1,Feature and display,51.6,13.4
+PROMO-0508,CUST02,Sproutline Natural Markets,CAT01-SKU03,Functional Beverages,2026-03-02,25.6,11.8,Display,84.5,12.4
+PROMO-0509,CUST02,Sproutline Natural Markets,CAT01-SKU05,Functional Beverages,2026-03-02,32.6,13.6,Display,89.7,9.4
+PROMO-0510,CUST02,Sproutline Natural Markets,CAT04-SKU06,Natural Personal Care,2026-03-02,16.8,31.3,Feature,97.1,10.5
+PROMO-0511,CUST02,Sproutline Natural Markets,CAT05-SKU02,Organic Pantry Staples,2026-03-02,22.9,12.2,Digital only,80.4,12.4
+PROMO-0512,CUST03,Northstar Independent Co-op,CAT01-SKU01,Functional Beverages,2026-03-02,20.9,4.2,Feature,82.1,15.4
+PROMO-0513,CUST03,Northstar Independent Co-op,CAT01-SKU02,Functional Beverages,2026-03-02,12.8,9.3,Feature,85.5,6.8
+PROMO-0514,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2026-03-02,13.5,24.8,Feature,74.3,15.3
+PROMO-0515,CUST03,Northstar Independent Co-op,CAT04-SKU01,Natural Personal Care,2026-03-02,16.4,23.3,Display,81.0,7.9
+PROMO-0516,CUST03,Northstar Independent Co-op,CAT06-SKU01,Fresh Specialty Cheese,2026-03-02,22.4,10.5,Digital only,77.8,6.5
+PROMO-0517,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2026-03-02,27.7,23.1,Feature and display,79.5,12.7
+PROMO-0518,CUST04,Fresh Table Supermarkets,CAT01-SKU04,Functional Beverages,2026-03-02,24.0,10.3,Feature,69.3,12.5
+PROMO-0519,CUST04,Fresh Table Supermarkets,CAT05-SKU01,Organic Pantry Staples,2026-03-02,19.1,19.6,Display,99,6.1
+PROMO-0520,CUST05,Urban Pantry Express,CAT06-SKU02,Fresh Specialty Cheese,2026-03-02,25.4,22.7,Digital only,86.1,11.6
+PROMO-0521,CUST01,Central Market Group,CAT02-SKU02,Better-for-You Snacks,2026-03-09,23.8,24.3,Feature,65.6,12.6
+PROMO-0522,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2026-03-09,22.3,7.1,Feature and display,63.0,10.5
+PROMO-0523,CUST01,Central Market Group,CAT04-SKU02,Natural Personal Care,2026-03-09,33.6,17.1,Display,76.6,8.6
+PROMO-0524,CUST02,Sproutline Natural Markets,CAT02-SKU02,Better-for-You Snacks,2026-03-09,12.2,10.5,Feature,87.3,6.1
+PROMO-0525,CUST02,Sproutline Natural Markets,CAT05-SKU04,Organic Pantry Staples,2026-03-09,37.5,14.4,Feature and display,92.9,16.3
+PROMO-0526,CUST02,Sproutline Natural Markets,CAT06-SKU03,Fresh Specialty Cheese,2026-03-09,23.1,10.3,Feature,55.2,12.8
+PROMO-0527,CUST03,Northstar Independent Co-op,CAT01-SKU04,Functional Beverages,2026-03-09,25.6,12.7,Feature and display,71.6,9.5
+PROMO-0528,CUST03,Northstar Independent Co-op,CAT06-SKU03,Fresh Specialty Cheese,2026-03-09,36.5,31.4,Display,75.8,16.7
+PROMO-0529,CUST04,Fresh Table Supermarkets,CAT02-SKU01,Better-for-You Snacks,2026-03-09,28.0,9.7,Display,73.5,12.0
+PROMO-0530,CUST04,Fresh Table Supermarkets,CAT04-SKU01,Natural Personal Care,2026-03-09,15.4,7.6,Feature,68.4,12.9
+PROMO-0531,CUST04,Fresh Table Supermarkets,CAT04-SKU04,Natural Personal Care,2026-03-09,22.6,4.6,Digital only,68.7,16.5
+PROMO-0532,CUST05,Urban Pantry Express,CAT04-SKU06,Natural Personal Care,2026-03-09,20.6,4.7,Feature,99,9.9
+PROMO-0533,CUST05,Urban Pantry Express,CAT05-SKU02,Organic Pantry Staples,2026-03-09,31.9,6.2,Feature and display,82.8,14.2
+PROMO-0534,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2026-03-09,13.0,12.8,Digital only,89.6,16.8
+PROMO-0535,CUST05,Urban Pantry Express,CAT05-SKU05,Organic Pantry Staples,2026-03-09,14.7,25.9,Feature,84.1,14.4
+PROMO-0536,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2026-03-16,36.0,28.1,Feature and display,99,14.7
+PROMO-0537,CUST01,Central Market Group,CAT03-SKU01,Plant-Based Meals,2026-03-16,11.0,26.8,Display,86.2,16.1
+PROMO-0538,CUST01,Central Market Group,CAT04-SKU06,Natural Personal Care,2026-03-16,36.1,11.5,Digital only,75.4,15.7
+PROMO-0539,CUST01,Central Market Group,CAT05-SKU06,Organic Pantry Staples,2026-03-16,20.2,20.6,Feature and display,50.8,7.0
+PROMO-0540,CUST01,Central Market Group,CAT06-SKU04,Fresh Specialty Cheese,2026-03-16,33.4,9.0,Digital only,85.0,15.6
+PROMO-0541,CUST02,Sproutline Natural Markets,CAT01-SKU04,Functional Beverages,2026-03-16,19.0,7.2,Feature and display,72.5,15.2
+PROMO-0542,CUST02,Sproutline Natural Markets,CAT01-SKU05,Functional Beverages,2026-03-16,14.5,8.0,Feature,84.0,6.9
+PROMO-0543,CUST02,Sproutline Natural Markets,CAT02-SKU05,Better-for-You Snacks,2026-03-16,25.3,12.4,Feature,85.1,6.9
+PROMO-0544,CUST02,Sproutline Natural Markets,CAT05-SKU04,Organic Pantry Staples,2026-03-16,27.4,25.4,Digital only,64.1,14.9
+PROMO-0545,CUST03,Northstar Independent Co-op,CAT01-SKU03,Functional Beverages,2026-03-16,23.6,25.5,Feature,81.1,7.8
+PROMO-0546,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2026-03-16,15.1,17.1,Feature and display,82.5,8.3
+PROMO-0547,CUST03,Northstar Independent Co-op,CAT02-SKU02,Better-for-You Snacks,2026-03-16,36.5,33.0,Display,56.0,7.3
+PROMO-0548,CUST03,Northstar Independent Co-op,CAT03-SKU02,Plant-Based Meals,2026-03-16,35.6,25.3,Feature,85.9,13.2
+PROMO-0549,CUST03,Northstar Independent Co-op,CAT03-SKU06,Plant-Based Meals,2026-03-16,13.9,27.1,Feature and display,83.4,8.6
+PROMO-0550,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2026-03-16,23.1,15.8,Display,86.5,6.8
+PROMO-0551,CUST04,Fresh Table Supermarkets,CAT02-SKU04,Better-for-You Snacks,2026-03-16,11.7,13.3,Feature and display,99,12.8
+PROMO-0552,CUST04,Fresh Table Supermarkets,CAT03-SKU03,Plant-Based Meals,2026-03-16,20.9,15.9,Digital only,84.5,17.3
+PROMO-0553,CUST04,Fresh Table Supermarkets,CAT04-SKU06,Natural Personal Care,2026-03-16,36.2,13.0,Display,74.1,13.0
+PROMO-0554,CUST04,Fresh Table Supermarkets,CAT05-SKU03,Organic Pantry Staples,2026-03-16,18.8,19.0,Display,89.3,17.1
+PROMO-0555,CUST04,Fresh Table Supermarkets,CAT05-SKU04,Organic Pantry Staples,2026-03-16,10.1,30.9,Feature,72.2,14.6
+PROMO-0556,CUST04,Fresh Table Supermarkets,CAT06-SKU01,Fresh Specialty Cheese,2026-03-16,17.9,10.1,Feature,74.7,8.6
+PROMO-0557,CUST04,Fresh Table Supermarkets,CAT06-SKU06,Fresh Specialty Cheese,2026-03-16,17.9,23.3,Display,58.1,16.6
+PROMO-0558,CUST05,Urban Pantry Express,CAT01-SKU01,Functional Beverages,2026-03-16,11.9,25.8,Display,67.0,10.2
+PROMO-0559,CUST05,Urban Pantry Express,CAT01-SKU05,Functional Beverages,2026-03-16,18.4,18.4,Feature and display,67.1,17.3
+PROMO-0560,CUST05,Urban Pantry Express,CAT02-SKU01,Better-for-You Snacks,2026-03-16,33.8,7.9,Feature,87.0,11.0
+PROMO-0561,CUST05,Urban Pantry Express,CAT02-SKU04,Better-for-You Snacks,2026-03-16,18.6,7.6,Feature and display,99,12.0
+PROMO-0562,CUST05,Urban Pantry Express,CAT03-SKU03,Plant-Based Meals,2026-03-16,13.1,33.4,Digital only,82.7,15.4
+PROMO-0563,CUST05,Urban Pantry Express,CAT04-SKU01,Natural Personal Care,2026-03-16,25.8,29.7,Feature,95.6,7.1
+PROMO-0564,CUST05,Urban Pantry Express,CAT04-SKU04,Natural Personal Care,2026-03-16,35.6,25.6,Feature and display,99,7.4
+PROMO-0565,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2026-03-16,35.7,14.4,Digital only,69.3,15.9
+PROMO-0566,CUST05,Urban Pantry Express,CAT04-SKU06,Natural Personal Care,2026-03-16,30.4,4.5,Display,68.5,14.6
+PROMO-0567,CUST01,Central Market Group,CAT01-SKU01,Functional Beverages,2026-03-23,15.2,10.7,Digital only,59.0,10.5
+PROMO-0568,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2026-03-23,32.4,25.5,Feature and display,86.5,12.4
+PROMO-0569,CUST01,Central Market Group,CAT04-SKU02,Natural Personal Care,2026-03-23,15.5,24.4,Display,71.5,14.4
+PROMO-0570,CUST01,Central Market Group,CAT04-SKU03,Natural Personal Care,2026-03-23,16.2,4.4,Display,86.3,11.7
+PROMO-0571,CUST01,Central Market Group,CAT06-SKU01,Fresh Specialty Cheese,2026-03-23,33.1,15.8,Feature and display,58.7,16.0
+PROMO-0572,CUST02,Sproutline Natural Markets,CAT02-SKU01,Better-for-You Snacks,2026-03-23,25.3,23.3,Feature,78.3,14.3
+PROMO-0573,CUST02,Sproutline Natural Markets,CAT03-SKU06,Plant-Based Meals,2026-03-23,11.4,29.7,Display,62.0,13.7
+PROMO-0574,CUST02,Sproutline Natural Markets,CAT04-SKU01,Natural Personal Care,2026-03-23,35.9,4.8,Display,88.6,7.2
+PROMO-0575,CUST02,Sproutline Natural Markets,CAT04-SKU06,Natural Personal Care,2026-03-23,25.7,33.1,Digital only,78.9,9.6
+PROMO-0576,CUST03,Northstar Independent Co-op,CAT02-SKU01,Better-for-You Snacks,2026-03-23,25.8,17.7,Feature and display,89.4,13.5
+PROMO-0577,CUST03,Northstar Independent Co-op,CAT02-SKU04,Better-for-You Snacks,2026-03-23,24.5,8.3,Feature,82.9,15.5
+PROMO-0578,CUST03,Northstar Independent Co-op,CAT03-SKU06,Plant-Based Meals,2026-03-23,13.8,9.9,Feature and display,71.0,11.3
+PROMO-0579,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2026-03-23,23.4,25.0,Digital only,76.5,12.5
+PROMO-0580,CUST03,Northstar Independent Co-op,CAT05-SKU02,Organic Pantry Staples,2026-03-23,20.1,13.2,Feature and display,83.4,17.7
+PROMO-0581,CUST03,Northstar Independent Co-op,CAT05-SKU03,Organic Pantry Staples,2026-03-23,32.3,33.8,Digital only,94.4,14.6
+PROMO-0582,CUST04,Fresh Table Supermarkets,CAT01-SKU01,Functional Beverages,2026-03-23,11.7,28.7,Feature,91.2,15.3
+PROMO-0583,CUST04,Fresh Table Supermarkets,CAT01-SKU03,Functional Beverages,2026-03-23,17.6,22.0,Display,94.4,16.7
+PROMO-0584,CUST04,Fresh Table Supermarkets,CAT02-SKU05,Better-for-You Snacks,2026-03-23,31.1,7.6,Feature and display,71.1,15.0
+PROMO-0585,CUST04,Fresh Table Supermarkets,CAT06-SKU04,Fresh Specialty Cheese,2026-03-23,15.2,24.8,Feature and display,78.0,8.9
+PROMO-0586,CUST05,Urban Pantry Express,CAT02-SKU02,Better-for-You Snacks,2026-03-23,11.1,16.1,Display,77.6,11.8
+PROMO-0587,CUST05,Urban Pantry Express,CAT04-SKU04,Natural Personal Care,2026-03-23,33.2,16.0,Feature,90.2,17.9
+PROMO-0588,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2026-03-23,35.7,33.9,Digital only,70.5,10.0
+PROMO-0589,CUST05,Urban Pantry Express,CAT05-SKU04,Organic Pantry Staples,2026-03-23,27.5,29.4,Feature,60.2,6.7
+PROMO-0590,CUST05,Urban Pantry Express,CAT05-SKU06,Organic Pantry Staples,2026-03-23,28.2,27.4,Display,80.2,12.4
+PROMO-0591,CUST01,Central Market Group,CAT01-SKU05,Functional Beverages,2026-03-30,32.9,24.2,Display,87.3,10.5
+PROMO-0592,CUST01,Central Market Group,CAT02-SKU03,Better-for-You Snacks,2026-03-30,23.0,8.6,Display,77.0,12.3
+PROMO-0593,CUST01,Central Market Group,CAT06-SKU02,Fresh Specialty Cheese,2026-03-30,36.2,29.7,Digital only,93.3,6.6
+PROMO-0594,CUST01,Central Market Group,CAT06-SKU06,Fresh Specialty Cheese,2026-03-30,31.1,25.7,Feature and display,66.2,17.9
+PROMO-0595,CUST02,Sproutline Natural Markets,CAT03-SKU01,Plant-Based Meals,2026-03-30,25.2,11.0,Display,81.4,6.3
+PROMO-0596,CUST02,Sproutline Natural Markets,CAT05-SKU03,Organic Pantry Staples,2026-03-30,17.7,15.6,Feature and display,72.1,15.0
+PROMO-0597,CUST02,Sproutline Natural Markets,CAT05-SKU05,Organic Pantry Staples,2026-03-30,37.6,17.0,Feature and display,72.7,8.1
+PROMO-0598,CUST02,Sproutline Natural Markets,CAT06-SKU06,Fresh Specialty Cheese,2026-03-30,37.7,18.2,Feature and display,96.0,17.9
+PROMO-0599,CUST03,Northstar Independent Co-op,CAT02-SKU04,Better-for-You Snacks,2026-03-30,23.0,25.8,Feature and display,91.4,13.6
+PROMO-0600,CUST03,Northstar Independent Co-op,CAT03-SKU03,Plant-Based Meals,2026-03-30,31.4,32.4,Feature and display,55.7,13.7
+PROMO-0601,CUST03,Northstar Independent Co-op,CAT04-SKU06,Natural Personal Care,2026-03-30,19.2,15.6,Digital only,82.2,6.3
+PROMO-0602,CUST03,Northstar Independent Co-op,CAT06-SKU01,Fresh Specialty Cheese,2026-03-30,21.7,18.8,Feature and display,92.7,11.8
+PROMO-0603,CUST03,Northstar Independent Co-op,CAT06-SKU03,Fresh Specialty Cheese,2026-03-30,34.3,17.7,Digital only,70.3,17.8
+PROMO-0604,CUST03,Northstar Independent Co-op,CAT06-SKU04,Fresh Specialty Cheese,2026-03-30,13.2,22.2,Display,92.9,12.3
+PROMO-0605,CUST04,Fresh Table Supermarkets,CAT01-SKU06,Functional Beverages,2026-03-30,32.5,17.3,Feature,58.7,17.3
+PROMO-0606,CUST04,Fresh Table Supermarkets,CAT02-SKU04,Better-for-You Snacks,2026-03-30,25.9,16.3,Digital only,95.0,13.5
+PROMO-0607,CUST04,Fresh Table Supermarkets,CAT03-SKU01,Plant-Based Meals,2026-03-30,11.4,21.9,Feature and display,78.1,14.2
+PROMO-0608,CUST04,Fresh Table Supermarkets,CAT04-SKU02,Natural Personal Care,2026-03-30,30.8,4.4,Feature,48.9,14.6
+PROMO-0609,CUST04,Fresh Table Supermarkets,CAT04-SKU03,Natural Personal Care,2026-03-30,30.6,6.0,Display,59.9,16.0
+PROMO-0610,CUST05,Urban Pantry Express,CAT01-SKU02,Functional Beverages,2026-03-30,10.9,7.8,Feature,75.2,14.8
+PROMO-0611,CUST05,Urban Pantry Express,CAT01-SKU05,Functional Beverages,2026-03-30,23.4,26.5,Display,60.6,10.8
+PROMO-0612,CUST05,Urban Pantry Express,CAT02-SKU03,Better-for-You Snacks,2026-03-30,19.3,22.4,Feature,99,17.5
+PROMO-0613,CUST05,Urban Pantry Express,CAT02-SKU04,Better-for-You Snacks,2026-03-30,37.8,13.3,Feature,68.6,13.6
+PROMO-0614,CUST05,Urban Pantry Express,CAT04-SKU04,Natural Personal Care,2026-03-30,30.6,20.3,Digital only,59.8,13.3
+PROMO-0615,CUST05,Urban Pantry Express,CAT04-SKU05,Natural Personal Care,2026-03-30,28.0,24.3,Display,88.3,11.6

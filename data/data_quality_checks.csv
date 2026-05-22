@@ -1,0 +1,85 @@
+check_id,source_system,table_name,check_type,severity,status,freshness_hours,failed_records,owner,recommended_fix
+DQ001,Item master,skus,Hierarchy completeness,Low,Pass,31,0,Data engineering,Clarify stakeholder metric definition
+DQ002,Distributor shipment ERP,distributor_shipments,Order to shipment match,Low,Pass,7,0,Category manager,Align item hierarchy mapping before business review
+DQ003,Distributor shipment ERP,distributor_shipments,Order to shipment match,High,Pass,49,0,Customer planning,Patch promotion calendar join key
+DQ004,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,71,0,Category manager,Reconcile retailer scans to distributor shipments
+DQ005,Power BI service,power_bi_assets,Refresh SLA,Medium,Watch,18,385,Category manager,Reconcile retailer scans to distributor shipments
+DQ006,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Pass,72,0,Category manager,Align item hierarchy mapping before business review
+DQ007,Item master,skus,Hierarchy completeness,High,Pass,39,0,Data engineering,Certify measure after peer review
+DQ008,Item master,skus,Hierarchy completeness,Low,Watch,40,862,Customer planning,Backfill missing week and republish dataset
+DQ009,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Watch,33,335,Customer planning,Clarify stakeholder metric definition
+DQ010,Power BI service,power_bi_assets,Refresh SLA,Medium,Pass,48,0,Customer planning,Align item hierarchy mapping before business review
+DQ011,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Pass,4,0,BI analyst,Patch promotion calendar join key
+DQ012,Syndicated POS,weekly_pos,Freshness,Low,Pass,19,0,Data engineering,Patch promotion calendar join key
+DQ013,Syndicated POS,weekly_pos,Freshness,Medium,Watch,64,95,BI analyst,Backfill missing week and republish dataset
+DQ014,Item master,skus,Hierarchy completeness,Low,Fail,51,250,Data engineering,Patch promotion calendar join key
+DQ015,Promotion calendar,promotion_calendar,Promotion join coverage,High,Pass,17,0,Customer planning,Certify measure after peer review
+DQ016,Planning request tracker,stakeholder_requests,Requirement clarity,High,Pass,13,0,Data engineering,Certify measure after peer review
+DQ017,Item master,skus,Hierarchy completeness,Medium,Pass,22,0,Category manager,Align item hierarchy mapping before business review
+DQ018,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Pass,20,0,Category manager,Backfill missing week and republish dataset
+DQ019,Retailer direct POS,weekly_pos,Scan reconciliation,Low,Pass,8,0,BI analyst,Backfill missing week and republish dataset
+DQ020,Promotion calendar,promotion_calendar,Promotion join coverage,Low,Pass,35,0,Data engineering,Backfill missing week and republish dataset
+DQ021,Syndicated POS,weekly_pos,Freshness,Medium,Fail,43,183,Customer planning,Patch promotion calendar join key
+DQ022,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,5,0,Category manager,Align item hierarchy mapping before business review
+DQ023,Planning request tracker,stakeholder_requests,Requirement clarity,Critical,Pass,65,0,Customer planning,Align item hierarchy mapping before business review
+DQ024,Item master,skus,Hierarchy completeness,Medium,Pass,12,0,Category manager,Certify measure after peer review
+DQ025,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Watch,38,663,Customer planning,Reconcile retailer scans to distributor shipments
+DQ026,Power BI service,power_bi_assets,Refresh SLA,Low,Pass,21,0,Customer planning,Patch promotion calendar join key
+DQ027,Syndicated POS,weekly_pos,Freshness,Medium,Pass,8,0,BI analyst,Reconcile retailer scans to distributor shipments
+DQ028,Syndicated POS,weekly_pos,Freshness,High,Pass,7,0,Customer planning,Clarify stakeholder metric definition
+DQ029,Promotion calendar,promotion_calendar,Promotion join coverage,High,Fail,58,375,BI analyst,Clarify stakeholder metric definition
+DQ030,Planning request tracker,stakeholder_requests,Requirement clarity,Low,Pass,41,0,Category manager,Clarify stakeholder metric definition
+DQ031,Syndicated POS,weekly_pos,Freshness,High,Watch,62,910,Customer planning,Reconcile retailer scans to distributor shipments
+DQ032,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Pass,39,0,Category manager,Patch promotion calendar join key
+DQ033,Promotion calendar,promotion_calendar,Promotion join coverage,High,Pass,19,0,BI analyst,Certify measure after peer review
+DQ034,Item master,skus,Hierarchy completeness,Low,Pass,66,0,Category manager,Patch promotion calendar join key
+DQ035,Distributor shipment ERP,distributor_shipments,Order to shipment match,Medium,Watch,31,344,Customer planning,Clarify stakeholder metric definition
+DQ036,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,13,0,Category manager,Certify measure after peer review
+DQ037,Promotion calendar,promotion_calendar,Promotion join coverage,Low,Pass,66,0,Customer planning,Clarify stakeholder metric definition
+DQ038,Syndicated POS,weekly_pos,Freshness,Low,Watch,55,867,Data engineering,Reconcile retailer scans to distributor shipments
+DQ039,Promotion calendar,promotion_calendar,Promotion join coverage,Low,Pass,13,0,Data engineering,Certify measure after peer review
+DQ040,Item master,skus,Hierarchy completeness,Medium,Fail,32,520,BI analyst,Backfill missing week and republish dataset
+DQ041,Syndicated POS,weekly_pos,Freshness,Low,Pass,18,0,Customer planning,Reconcile retailer scans to distributor shipments
+DQ042,Item master,skus,Hierarchy completeness,Low,Pass,67,0,Customer planning,Backfill missing week and republish dataset
+DQ043,Power BI service,power_bi_assets,Refresh SLA,High,Pass,28,0,Customer planning,Reconcile retailer scans to distributor shipments
+DQ044,Promotion calendar,promotion_calendar,Promotion join coverage,High,Watch,19,640,Data engineering,Clarify stakeholder metric definition
+DQ045,Item master,skus,Hierarchy completeness,High,Pass,44,0,Category manager,Patch promotion calendar join key
+DQ046,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,38,0,BI analyst,Reconcile retailer scans to distributor shipments
+DQ047,Syndicated POS,weekly_pos,Freshness,Low,Watch,30,518,BI analyst,Reconcile retailer scans to distributor shipments
+DQ048,Planning request tracker,stakeholder_requests,Requirement clarity,Medium,Fail,65,912,Category manager,Certify measure after peer review
+DQ049,Syndicated POS,weekly_pos,Freshness,High,Fail,41,201,BI analyst,Patch promotion calendar join key
+DQ050,Promotion calendar,promotion_calendar,Promotion join coverage,Critical,Watch,9,162,BI analyst,Certify measure after peer review
+DQ051,Item master,skus,Hierarchy completeness,High,Pass,65,0,Category manager,Reconcile retailer scans to distributor shipments
+DQ052,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,55,0,Customer planning,Clarify stakeholder metric definition
+DQ053,Power BI service,power_bi_assets,Refresh SLA,High,Pass,63,0,BI analyst,Reconcile retailer scans to distributor shipments
+DQ054,Planning request tracker,stakeholder_requests,Requirement clarity,High,Pass,45,0,Customer planning,Clarify stakeholder metric definition
+DQ055,Retailer direct POS,weekly_pos,Scan reconciliation,High,Pass,11,0,Data engineering,Backfill missing week and republish dataset
+DQ056,Retailer direct POS,weekly_pos,Scan reconciliation,Low,Pass,43,0,Category manager,Backfill missing week and republish dataset
+DQ057,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Fail,19,309,Data engineering,Reconcile retailer scans to distributor shipments
+DQ058,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Watch,55,543,Category manager,Clarify stakeholder metric definition
+DQ059,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Pass,16,0,Data engineering,Reconcile retailer scans to distributor shipments
+DQ060,Syndicated POS,weekly_pos,Freshness,Medium,Pass,60,0,BI analyst,Align item hierarchy mapping before business review
+DQ061,Item master,skus,Hierarchy completeness,Medium,Fail,8,496,Customer planning,Patch promotion calendar join key
+DQ062,Power BI service,power_bi_assets,Refresh SLA,Medium,Pass,19,0,Customer planning,Certify measure after peer review
+DQ063,Power BI service,power_bi_assets,Refresh SLA,High,Fail,41,80,Category manager,Patch promotion calendar join key
+DQ064,Distributor shipment ERP,distributor_shipments,Order to shipment match,Low,Pass,45,0,Category manager,Backfill missing week and republish dataset
+DQ065,Promotion calendar,promotion_calendar,Promotion join coverage,Medium,Pass,11,0,BI analyst,Certify measure after peer review
+DQ066,Promotion calendar,promotion_calendar,Promotion join coverage,Critical,Pass,46,0,Category manager,Backfill missing week and republish dataset
+DQ067,Distributor shipment ERP,distributor_shipments,Order to shipment match,Critical,Watch,4,588,Data engineering,Clarify stakeholder metric definition
+DQ068,Item master,skus,Hierarchy completeness,Medium,Pass,52,0,Data engineering,Align item hierarchy mapping before business review
+DQ069,Retailer direct POS,weekly_pos,Scan reconciliation,High,Watch,47,678,Category manager,Align item hierarchy mapping before business review
+DQ070,Item master,skus,Hierarchy completeness,Medium,Watch,32,286,Customer planning,Align item hierarchy mapping before business review
+DQ071,Syndicated POS,weekly_pos,Freshness,Low,Pass,72,0,Category manager,Certify measure after peer review
+DQ072,Planning request tracker,stakeholder_requests,Requirement clarity,High,Pass,67,0,Category manager,Align item hierarchy mapping before business review
+DQ073,Power BI service,power_bi_assets,Refresh SLA,Low,Watch,47,314,Data engineering,Backfill missing week and republish dataset
+DQ074,Retailer direct POS,weekly_pos,Scan reconciliation,Medium,Fail,7,118,BI analyst,Certify measure after peer review
+DQ075,Promotion calendar,promotion_calendar,Promotion join coverage,High,Pass,7,0,Category manager,Align item hierarchy mapping before business review
+DQ076,Planning request tracker,stakeholder_requests,Requirement clarity,Low,Pass,47,0,Customer planning,Patch promotion calendar join key
+DQ077,Power BI service,power_bi_assets,Refresh SLA,Low,Watch,34,596,Data engineering,Backfill missing week and republish dataset
+DQ078,Distributor shipment ERP,distributor_shipments,Order to shipment match,Low,Pass,56,0,Customer planning,Patch promotion calendar join key
+DQ079,Planning request tracker,stakeholder_requests,Requirement clarity,Medium,Pass,24,0,Customer planning,Certify measure after peer review
+DQ080,Syndicated POS,weekly_pos,Freshness,Medium,Pass,67,0,Category manager,Certify measure after peer review
+DQ081,Retailer direct POS,weekly_pos,Scan reconciliation,High,Fail,42,611,Data engineering,Reconcile retailer scans to distributor shipments
+DQ082,Retailer direct POS,weekly_pos,Scan reconciliation,Low,Watch,69,865,Category manager,Certify measure after peer review
+DQ083,Retailer direct POS,weekly_pos,Scan reconciliation,High,Pass,5,0,BI analyst,Backfill missing week and republish dataset
+DQ084,Promotion calendar,promotion_calendar,Promotion join coverage,Low,Pass,58,0,Customer planning,Align item hierarchy mapping before business review

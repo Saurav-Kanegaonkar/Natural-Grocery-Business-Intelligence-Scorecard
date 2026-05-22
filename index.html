@@ -3,52 +3,126 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Natural Grocery Business Intelligence Scorecard</title>
+  <title>Natural Grocery Customer BI Planning Console</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#0f766e;--bg:#eefdf8">
+<body>
   <main class="shell">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">Scorecard / natural grocery distribution BI analytics</p>
-        <h1>Natural Grocery Business Intelligence Scorecard</h1>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">BI</span>
+        <div>
+          <p class="eyebrow">Natural grocery distribution</p>
+          <h1>Customer BI Planning Console</h1>
+        </div>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy customer category-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <nav class="tabs" aria-label="Dashboard sections">
+        <button class="tab active" data-tab="scorecard">Scorecard</button>
+        <button class="tab" data-tab="opportunities">Opportunities</button>
+        <button class="tab" data-tab="trust">Data trust</button>
+        <button class="tab" data-tab="package">Package</button>
+      </nav>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>customer categorys</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <section class="hero-strip">
+      <div>
+        <p class="eyebrow">Weekly customer business review</p>
+        <h2>Connect syndicated POS, retailer scans, shipments, promotions, and Power BI governance into one planning artifact.</h2>
+      </div>
+      <p>The console is designed for a senior business analyst who needs trusted metrics at the point of decision, clear account-team recommendations, and a reporting package that can move from dashboard to presentation.</p>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Metric ownership</p>
-        <h2>Priority queue</h2>
+
+    <section class="kpi-grid" id="kpis"></section>
+
+    <section class="view active" id="scorecard">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 1</p>
+          <h2>Executive Customer Scorecard</h2>
+        </div>
+        <p>High-level account health for sales, margin upside, fill-rate, category momentum, and BI adoption.</p>
+      </div>
+      <div class="scorecard-layout">
+        <article class="panel">
+          <h3>Customer portfolio</h3>
+          <div class="bar-list" id="customer-bars"></div>
+        </article>
+        <article class="panel">
+          <h3>Power BI assets</h3>
+          <div class="asset-list" id="asset-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="opportunities">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 2</p>
+          <h2>Category Opportunity Queue</h2>
+        </div>
+        <p>Explainable prioritization across distribution voids, syndicated share, fill-rate, promotion lift, and confidence.</p>
+      </div>
+      <article class="panel table-panel">
         <table>
-          <thead><tr><th>customer category</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>KPI drift</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Roadmap opportunity</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
+          <thead>
+            <tr>
+              <th>Customer</th>
+              <th>Category</th>
+              <th>Score</th>
+              <th>ACV gap</th>
+              <th>Fill rate</th>
+              <th>Upside</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="opportunity-table"></tbody>
         </table>
       </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
-      </article>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value customer category segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="view" id="trust">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 3</p>
+          <h2>Data Trust and Semantic Layer</h2>
+        </div>
+        <p>Source freshness, failed records, refresh risk, DAX-style measure definitions, and certification readiness.</p>
+      </div>
+      <div class="trust-layout">
+        <article class="panel table-panel">
+          <h3>Data trust queue</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Check</th>
+                <th>Status</th>
+                <th>Trust</th>
+                <th>Fix</th>
+              </tr>
+            </thead>
+            <tbody id="trust-table"></tbody>
+          </table>
+        </article>
+        <article class="panel">
+          <h3>DAX measure catalog</h3>
+          <div class="measure-list" id="measure-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" id="package">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Surface 4</p>
+          <h2>Reporting Package Builder</h2>
+        </div>
+        <p>Customer business-review themes, open requests, slide readiness, next meetings, and recommended storylines.</p>
+      </div>
+      <div class="package-grid" id="package-grid"></div>
     </section>
   </main>
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,121 @@
+request_id,request_type,customer_id,category,business_question,impact_score,urgency_score,requirement_clarity_pct,age_days,status
+REQ001,Data issue,CUST01,Plant-Based Meals,Where are distribution voids suppressing growth?,2,2,76,30,Ready for review
+REQ002,Metric definition,CUST04,Better-for-You Snacks,Which SKU needs assortment or supply follow-up?,2,1,67,20,Ready for review
+REQ003,Business review slide,CUST03,Natural Personal Care,Where are distribution voids suppressing growth?,4,6,45,15,Waiting on data
+REQ004,Business review slide,CUST05,Plant-Based Meals,Which promotion is missing expected lift?,2,5,71,17,In progress
+REQ005,Data issue,CUST05,Functional Beverages,What should go into next customer business review?,8,2,86,7,Published
+REQ006,Dashboard change,CUST02,Organic Pantry Staples,What should go into next customer business review?,8,10,88,19,Waiting on data
+REQ007,Dashboard change,CUST02,Functional Beverages,Which SKU needs assortment or supply follow-up?,4,4,84,30,In progress
+REQ008,Metric definition,CUST04,Functional Beverages,Why do syndicated sales and retailer scans disagree?,7,9,65,27,Ready for review
+REQ009,Dashboard change,CUST05,Plant-Based Meals,Where are distribution voids suppressing growth?,8,9,97,37,Published
+REQ010,Ad hoc analysis,CUST04,Fresh Specialty Cheese,Where are distribution voids suppressing growth?,5,1,51,25,In progress
+REQ011,Metric definition,CUST02,Functional Beverages,Which SKU needs assortment or supply follow-up?,5,5,61,33,In progress
+REQ012,Ad hoc analysis,CUST03,Natural Personal Care,Where are distribution voids suppressing growth?,6,7,79,0,Published
+REQ013,Customer planning question,CUST01,Plant-Based Meals,Where are distribution voids suppressing growth?,6,9,54,0,Ready for review
+REQ014,Data issue,CUST03,Natural Personal Care,Why do syndicated sales and retailer scans disagree?,5,6,88,32,New
+REQ015,Customer planning question,CUST01,Functional Beverages,What should go into next customer business review?,5,6,46,15,In progress
+REQ016,Dashboard change,CUST01,Fresh Specialty Cheese,Why do syndicated sales and retailer scans disagree?,7,6,73,38,In progress
+REQ017,Dashboard change,CUST02,Natural Personal Care,What should go into next customer business review?,7,6,76,30,Ready for review
+REQ018,Customer planning question,CUST03,Fresh Specialty Cheese,Which SKU needs assortment or supply follow-up?,10,9,98,31,In progress
+REQ019,Ad hoc analysis,CUST04,Natural Personal Care,What should go into next customer business review?,2,5,78,14,Ready for review
+REQ020,Business review slide,CUST04,Functional Beverages,Which SKU needs assortment or supply follow-up?,10,7,71,11,Published
+REQ021,Dashboard change,CUST01,Better-for-You Snacks,Which promotion is missing expected lift?,6,4,45,35,New
+REQ022,Data issue,CUST01,Organic Pantry Staples,Where are distribution voids suppressing growth?,9,3,78,34,New
+REQ023,Metric definition,CUST04,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,7,10,61,39,Waiting on data
+REQ024,Customer planning question,CUST02,Functional Beverages,What should go into next customer business review?,2,7,46,22,In progress
+REQ025,Data issue,CUST01,Fresh Specialty Cheese,Which promotion is missing expected lift?,3,8,57,5,Waiting on data
+REQ026,Metric definition,CUST03,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,10,5,74,15,New
+REQ027,Dashboard change,CUST05,Fresh Specialty Cheese,Which SKU needs assortment or supply follow-up?,6,2,64,21,In progress
+REQ028,Business review slide,CUST03,Better-for-You Snacks,Why do syndicated sales and retailer scans disagree?,3,7,77,15,Ready for review
+REQ029,Dashboard change,CUST01,Plant-Based Meals,Why do syndicated sales and retailer scans disagree?,9,7,79,1,Waiting on data
+REQ030,Business review slide,CUST05,Better-for-You Snacks,Which promotion is missing expected lift?,5,9,85,37,New
+REQ031,Dashboard change,CUST05,Fresh Specialty Cheese,Which SKU needs assortment or supply follow-up?,8,5,85,19,New
+REQ032,Business review slide,CUST05,Fresh Specialty Cheese,Which promotion is missing expected lift?,5,6,65,4,New
+REQ033,Business review slide,CUST03,Natural Personal Care,Which SKU needs assortment or supply follow-up?,3,4,69,12,Waiting on data
+REQ034,Ad hoc analysis,CUST04,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,6,9,76,37,Published
+REQ035,Data issue,CUST05,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,10,10,98,23,New
+REQ036,Metric definition,CUST04,Organic Pantry Staples,Which SKU needs assortment or supply follow-up?,6,7,58,1,In progress
+REQ037,Business review slide,CUST04,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,10,8,87,36,Waiting on data
+REQ038,Ad hoc analysis,CUST01,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,6,8,93,9,Published
+REQ039,Metric definition,CUST04,Better-for-You Snacks,Which promotion is missing expected lift?,5,10,96,24,New
+REQ040,Data issue,CUST03,Organic Pantry Staples,What should go into next customer business review?,4,8,71,2,Waiting on data
+REQ041,Metric definition,CUST03,Plant-Based Meals,Where are distribution voids suppressing growth?,2,9,71,36,New
+REQ042,Business review slide,CUST02,Plant-Based Meals,What should go into next customer business review?,3,4,97,39,Published
+REQ043,Dashboard change,CUST05,Functional Beverages,Why do syndicated sales and retailer scans disagree?,9,1,54,25,Ready for review
+REQ044,Dashboard change,CUST03,Better-for-You Snacks,Where are distribution voids suppressing growth?,4,7,84,2,Waiting on data
+REQ045,Data issue,CUST03,Better-for-You Snacks,Which SKU needs assortment or supply follow-up?,8,8,81,12,In progress
+REQ046,Data issue,CUST03,Fresh Specialty Cheese,What should go into next customer business review?,4,8,53,22,In progress
+REQ047,Metric definition,CUST03,Functional Beverages,Which promotion is missing expected lift?,6,3,88,2,New
+REQ048,Ad hoc analysis,CUST02,Fresh Specialty Cheese,Which promotion is missing expected lift?,9,3,86,36,Published
+REQ049,Dashboard change,CUST03,Better-for-You Snacks,Where are distribution voids suppressing growth?,4,5,90,11,Waiting on data
+REQ050,Dashboard change,CUST05,Functional Beverages,Which promotion is missing expected lift?,5,7,94,29,Ready for review
+REQ051,Dashboard change,CUST03,Better-for-You Snacks,Where are distribution voids suppressing growth?,5,10,73,12,Ready for review
+REQ052,Ad hoc analysis,CUST05,Fresh Specialty Cheese,Which promotion is missing expected lift?,2,6,88,17,Waiting on data
+REQ053,Dashboard change,CUST01,Fresh Specialty Cheese,Which promotion is missing expected lift?,7,2,84,26,In progress
+REQ054,Dashboard change,CUST04,Better-for-You Snacks,Where are distribution voids suppressing growth?,2,6,51,11,Ready for review
+REQ055,Data issue,CUST02,Functional Beverages,What should go into next customer business review?,9,3,54,28,In progress
+REQ056,Business review slide,CUST04,Better-for-You Snacks,What should go into next customer business review?,7,10,77,6,Ready for review
+REQ057,Ad hoc analysis,CUST02,Natural Personal Care,What should go into next customer business review?,7,5,98,7,New
+REQ058,Ad hoc analysis,CUST02,Plant-Based Meals,What should go into next customer business review?,10,8,78,36,In progress
+REQ059,Customer planning question,CUST02,Functional Beverages,What should go into next customer business review?,10,9,59,18,Waiting on data
+REQ060,Dashboard change,CUST03,Organic Pantry Staples,Where are distribution voids suppressing growth?,2,4,66,19,Ready for review
+REQ061,Customer planning question,CUST03,Natural Personal Care,What should go into next customer business review?,9,6,94,33,Published
+REQ062,Business review slide,CUST04,Organic Pantry Staples,What should go into next customer business review?,8,2,72,39,Waiting on data
+REQ063,Ad hoc analysis,CUST02,Functional Beverages,Where are distribution voids suppressing growth?,4,6,83,29,Waiting on data
+REQ064,Customer planning question,CUST01,Better-for-You Snacks,What should go into next customer business review?,6,7,97,38,New
+REQ065,Metric definition,CUST01,Functional Beverages,Which promotion is missing expected lift?,6,1,60,4,Published
+REQ066,Dashboard change,CUST03,Functional Beverages,Where are distribution voids suppressing growth?,9,6,59,30,Waiting on data
+REQ067,Data issue,CUST03,Fresh Specialty Cheese,What should go into next customer business review?,4,8,52,2,New
+REQ068,Customer planning question,CUST03,Better-for-You Snacks,Why do syndicated sales and retailer scans disagree?,4,1,75,36,Published
+REQ069,Metric definition,CUST05,Organic Pantry Staples,Which SKU needs assortment or supply follow-up?,4,9,81,21,Published
+REQ070,Customer planning question,CUST03,Better-for-You Snacks,Which SKU needs assortment or supply follow-up?,6,3,54,38,Published
+REQ071,Ad hoc analysis,CUST01,Fresh Specialty Cheese,What should go into next customer business review?,8,2,89,26,Waiting on data
+REQ072,Metric definition,CUST01,Organic Pantry Staples,Which SKU needs assortment or supply follow-up?,7,8,95,39,Published
+REQ073,Ad hoc analysis,CUST03,Functional Beverages,Which SKU needs assortment or supply follow-up?,2,6,48,28,In progress
+REQ074,Business review slide,CUST02,Fresh Specialty Cheese,What should go into next customer business review?,4,2,61,39,In progress
+REQ075,Customer planning question,CUST04,Better-for-You Snacks,Which promotion is missing expected lift?,9,1,61,12,In progress
+REQ076,Ad hoc analysis,CUST04,Better-for-You Snacks,What should go into next customer business review?,9,1,64,35,Ready for review
+REQ077,Data issue,CUST05,Fresh Specialty Cheese,Where are distribution voids suppressing growth?,3,4,48,0,Ready for review
+REQ078,Metric definition,CUST04,Better-for-You Snacks,Which promotion is missing expected lift?,9,9,77,13,New
+REQ079,Ad hoc analysis,CUST05,Better-for-You Snacks,Which promotion is missing expected lift?,10,9,72,15,New
+REQ080,Ad hoc analysis,CUST02,Natural Personal Care,Where are distribution voids suppressing growth?,3,2,96,20,In progress
+REQ081,Ad hoc analysis,CUST05,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,2,10,78,14,Published
+REQ082,Data issue,CUST04,Functional Beverages,What should go into next customer business review?,5,3,74,35,In progress
+REQ083,Data issue,CUST05,Organic Pantry Staples,Which promotion is missing expected lift?,6,7,59,32,In progress
+REQ084,Dashboard change,CUST01,Fresh Specialty Cheese,Where are distribution voids suppressing growth?,9,1,53,21,Waiting on data
+REQ085,Business review slide,CUST02,Plant-Based Meals,What should go into next customer business review?,4,10,57,37,Ready for review
+REQ086,Metric definition,CUST03,Fresh Specialty Cheese,Which promotion is missing expected lift?,4,8,96,21,Ready for review
+REQ087,Customer planning question,CUST02,Natural Personal Care,Which SKU needs assortment or supply follow-up?,5,3,96,39,Ready for review
+REQ088,Business review slide,CUST04,Natural Personal Care,Why do syndicated sales and retailer scans disagree?,2,6,70,24,Published
+REQ089,Ad hoc analysis,CUST05,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,4,10,52,36,New
+REQ090,Data issue,CUST01,Fresh Specialty Cheese,Which SKU needs assortment or supply follow-up?,10,4,59,6,In progress
+REQ091,Metric definition,CUST02,Organic Pantry Staples,What should go into next customer business review?,8,8,73,24,Published
+REQ092,Customer planning question,CUST01,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,2,3,68,13,Published
+REQ093,Metric definition,CUST03,Plant-Based Meals,Which promotion is missing expected lift?,5,6,52,19,Waiting on data
+REQ094,Dashboard change,CUST03,Better-for-You Snacks,Where are distribution voids suppressing growth?,8,7,87,2,Ready for review
+REQ095,Business review slide,CUST04,Organic Pantry Staples,What should go into next customer business review?,2,2,52,22,Ready for review
+REQ096,Customer planning question,CUST04,Functional Beverages,Which SKU needs assortment or supply follow-up?,10,1,47,26,Ready for review
+REQ097,Metric definition,CUST01,Better-for-You Snacks,Where are distribution voids suppressing growth?,9,9,88,11,New
+REQ098,Business review slide,CUST03,Better-for-You Snacks,Why do syndicated sales and retailer scans disagree?,10,7,77,9,Published
+REQ099,Ad hoc analysis,CUST01,Better-for-You Snacks,Which SKU needs assortment or supply follow-up?,4,1,98,22,Ready for review
+REQ100,Metric definition,CUST05,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,3,3,47,19,In progress
+REQ101,Ad hoc analysis,CUST03,Plant-Based Meals,Which promotion is missing expected lift?,8,10,88,4,Waiting on data
+REQ102,Metric definition,CUST03,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,6,3,81,4,Waiting on data
+REQ103,Dashboard change,CUST03,Functional Beverages,Where are distribution voids suppressing growth?,2,2,81,3,Waiting on data
+REQ104,Business review slide,CUST02,Functional Beverages,What should go into next customer business review?,7,10,87,9,In progress
+REQ105,Ad hoc analysis,CUST04,Plant-Based Meals,Which SKU needs assortment or supply follow-up?,2,9,61,1,In progress
+REQ106,Business review slide,CUST03,Organic Pantry Staples,Which promotion is missing expected lift?,10,8,76,6,Ready for review
+REQ107,Metric definition,CUST03,Plant-Based Meals,Why do syndicated sales and retailer scans disagree?,5,4,87,37,Ready for review
+REQ108,Ad hoc analysis,CUST03,Natural Personal Care,Where are distribution voids suppressing growth?,3,1,46,17,Waiting on data
+REQ109,Dashboard change,CUST01,Natural Personal Care,Where are distribution voids suppressing growth?,2,10,78,23,Waiting on data
+REQ110,Metric definition,CUST03,Natural Personal Care,Which promotion is missing expected lift?,10,4,67,6,In progress
+REQ111,Metric definition,CUST04,Functional Beverages,Which SKU needs assortment or supply follow-up?,8,4,83,34,Published
+REQ112,Data issue,CUST03,Fresh Specialty Cheese,Where are distribution voids suppressing growth?,10,7,73,34,New
+REQ113,Dashboard change,CUST01,Fresh Specialty Cheese,Which promotion is missing expected lift?,7,7,73,7,In progress
+REQ114,Ad hoc analysis,CUST05,Better-for-You Snacks,Which SKU needs assortment or supply follow-up?,7,2,82,26,Waiting on data
+REQ115,Ad hoc analysis,CUST01,Functional Beverages,What should go into next customer business review?,10,8,45,24,New
+REQ116,Data issue,CUST05,Organic Pantry Staples,Which SKU needs assortment or supply follow-up?,3,10,65,12,Ready for review
+REQ117,Metric definition,CUST05,Organic Pantry Staples,Which SKU needs assortment or supply follow-up?,5,9,54,26,Ready for review
+REQ118,Business review slide,CUST05,Organic Pantry Staples,Why do syndicated sales and retailer scans disagree?,4,1,89,33,In progress
+REQ119,Customer planning question,CUST05,Fresh Specialty Cheese,Where are distribution voids suppressing growth?,4,8,81,29,In progress
+REQ120,Customer planning question,CUST03,Fresh Specialty Cheese,What should go into next customer business review?,9,6,91,7,Waiting on data
